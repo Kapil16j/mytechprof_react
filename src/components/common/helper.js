@@ -20,7 +20,33 @@ import backenddeveloper from "../../assets/img/courses/back-end.png"
 import uiux from "../../assets/img/courses/ui-ux.png"
 import appdeveloper from "../../assets/img/courses/app-developer.png"
 
-
+import HtmlImg from "../../assets/img/courses/html.png";
+import CssImg from "../../assets/img/courses/css.png";
+import BootstrapImg from "../../assets/img/courses/bootstrap.png";
+import TailwindImg from "../../assets/img/courses/tailwindcss-img.png";
+import JavascriptImg from "../../assets/img/courses/javascript-img.png";
+import ReactImg from "../../assets/img/courses/reactjs-img.png";
+import AngularImg from "../../assets/img/courses/angular-img.png";
+import VueImg from "../../assets/img/courses/veujs-img.png";
+import TypescriptImg from "../../assets/img/courses/typescript-img.png";
+import MaterializeImg from "../../assets/img/courses/matrialize-img.png";
+import MaterialUIImg from "../../assets/img/courses/matrialui-img.png";
+import NodeImg from "../../assets/img/courses/nodejs.png";
+import MongoDBImg from "../../assets/img/courses/mongodb.png";
+import PythonImg from "../../assets/img/courses/python.png";
+import DjangoImg from "../../assets/img/courses/django.png";
+import NestImg from "../../assets/img/courses/nest.png";
+import FastApiImg from "../../assets/img/courses/fast.png";
+import FlaskImg from "../../assets/img/courses/flask.png";
+import PostgreImg from "../../assets/img/courses/postgre.png";
+import MySQLImg from "../../assets/img/courses/mysql.png";
+import FirebaseImg from "../../assets/img/courses/firebase.png";
+import GraphQLImg from "../../assets/img/courses/graqphql.png";
+import FigmaImg from "../../assets/img/courses/figma.png";
+import AdobeXDImg from "../../assets/img/courses/adobe.png";
+import FlutterImg from "../../assets/img/courses/flutter.png";
+import DartImg from "../../assets/img/courses/dart.png";
+import ApiImg from "../../assets/img/courses/api.png";
 
 export const allcourselist = [
   {
@@ -32,77 +58,77 @@ export const allcourselist = [
 
     techlist: [
       {
-        imageURL: "/img/courses/html.png",
+        imageURL: HtmlImg,
         heading: "html",
         link: "https://developer.mozilla.org/en-US/docs/Web/HTML",
         description:
           "HTML is the standard markup language for Web pages. With HTML you can create your own Website.",
       },
       {
-        imageURL: "/img/courses/css.png",
+        imageURL: CssImg,
         heading: "css",
         link: "https://developer.mozilla.org/en-US/docs/Web/css",
         description:
           "CSS is the language we use to style an HTML document. CSS describes how HTML elements should be displayed.",
       },
       {
-        imageURL: "/img/courses/bootstrap.png",
+        imageURL: BootstrapImg,
         heading: "bootstrap",
         link: "https://getbootstrap.com/",
         description:
           "Bootstrap is the most popular CSS framework for developing responsive, mobile-first websites.",
       },
       {
-        imageURL: "/img/courses/tailwindcss-img.png",
+        imageURL: TailwindImg,
         heading: "tailwindcss",
         link: "https://tailwindcss.com/",
         description:
           "Tailwind CSS is basically a utility-first CSS framework for rapidly building custom user interfaces. ",
       },
       {
-        imageURL: "/img/courses/javascript-img.png",
+        imageURL: JavascriptImg,
         heading: "javascript",
         link: "https://www.javascript.com/",
         description:
           "JavaScript is the Programming Language for the Web. It can update and change both HTML and CSS.",
       },
       {
-        imageURL: "/img/courses/reactjs-img.png",
+        imageURL: ReactImg,
         heading: "react.js",
         link: "https://react.dev/",
         description:
           "React is a JavaScript library created by Facebook. React is a User Interface (UI) library.",
       },
       {
-        imageURL: "/img/courses/angular-img.png",
+        imageURL: AngularImg,
         heading: "angular.js",
         link: "https://angular.io/",
         description:
           "Angular is a platform and framework for building single-page client applications using HTML and TypeScript.",
       },
       {
-        imageURL: "/img/courses/veujs-img.png",
+        imageURL: VueImg,
         heading: "veu.js",
         link: "https://vuejs.org/",
         description:
           "Vue. js is a progressive framework for JavaScript used to build web interfaces and one-page applications.",
       },
       {
-        imageURL: "/img/courses/typescript-img.png",
+        imageURL: TypescriptImg,
         heading: "typescript",
         link: "https://www.typescriptlang.org/",
         description:
           "TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.",
       },
       {
-        imageURL: "/img/courses/matrialize-img.png",
+        imageURL: MaterializeImg,
         heading: "Matrialize",
         link: "https://materializecss.com/",
         description:
           "Materialize is a modern responsive CSS framework based on Material Design by Google.",
       },
       {
-        imageURL: "/img/courses/matrialui-img.png",
+        imageURL: MaterialUIImg,
         heading: "matrial ui",
         link: "https://mui.com/",
         description:
@@ -143,49 +169,49 @@ export const allcourselist = [
 
     techlist: [
       {
-        imageURL: "/img/courses/nodejs.png",
+        imageURL: NodeImg,
         heading: "node.js",
         link: "https://nodejs.org/en",
         description:
           "Node.js is an open-source server side framework allows you to run javascript on server.",
       },
       {
-        imageURL: "/img/courses/mongodb.png",
+        imageURL: MongoDBImg,
         heading: "mongodb",
         link: "https://www.mongodb.com/",
         description:
           "MongoDB is an open-source, high performance, NoSQL document database.",
       },
       {
-        imageURL: "/img/courses/python.png",
+        imageURL: PythonImg,
         heading: "python",
         link: "https://www.python.org/",
         description:
           "Python is a popular programming language allows you to create web, desktop and AI/ML applications.",
       },
       {
-        imageURL: "/img/courses/django.png",
+        imageURL: DjangoImg,
         heading: "django",
         link: "https://www.djangoproject.com/",
         description:
           "Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design.",
       },
       {
-        imageURL: "/img/courses/nest.png",
+        imageURL: NestImg,
         heading: "nest.js",
         link: "https://nestjs.com/",
         description:
           "NestJS A progressive Node.js framework for building efficient, reliable and scalable server-side applications. ",
       },
       {
-        imageURL: "/img/courses/fast.png",
+        imageURL: FastApiImg,
         heading: "fast api ",
         link: "https://fastapi.tiangolo.com/lo/",
         description:
           "FastAPI is a modern, fast (high-performance), web framework for building APIs with Python. ",
       },
       {
-        imageURL: "/img/courses/flask.png",
+        imageURL: FlaskImg,
         heading: " flask",
         link: "https://flask.palletsprojects.com/en/2.3.x/",
         description:
@@ -193,28 +219,28 @@ export const allcourselist = [
       },
 
       {
-        imageURL: "/img/courses/postgre.png",
+        imageURL: PostgreImg,
         heading: "postgre sql ",
         link: "https://www.postgresql.org/",
         description:
           " PostgreSQL is the World's Most Advanced Open Source Relational Database",
       },
       {
-        imageURL: "/img/courses/mysql.png",
+        imageURL: MySQLImg,
         heading: " mysql",
         link: "https://www.mysql.com/",
         description:
           " MySQL is a widely used RDBMS. MySQL is ideal for both small and large applications.",
       },
       {
-        imageURL: "/img/courses/firebase.png",
+        imageURL: FirebaseImg,
         heading: " Firebase",
         link: "https://firebase.google.com/",
         description:
           "Firebase is a platform developed by Google for creating mobile and web applications. ",
       },
       {
-        imageURL: "/img/courses/graqphql.png",
+        imageURL: GraphQLImg,
         heading: "graqphql ",
         link: "https://graphql.org/",
         description:
@@ -255,13 +281,13 @@ export const allcourselist = [
 
     techlist: [
       {
-        imageURL: "/img/courses/figma.png",
+        imageURL: FigmaImg,
         heading: "figma",
         description:
           "Figma is a web based vector graphics editor and prototyping tool. It is the most reliable tools for speeding the feedback loop.",
       },
       {
-        imageURL: "/img/courses/adobe.png",
+        imageURL: AdobeXDImg,
         heading: "adobe xd",
         link: "https://helpx.adobe.com/support/xd.html",
         description:
@@ -302,28 +328,28 @@ export const allcourselist = [
 
     techlist: [
       {
-        imageURL: "/img/courses/flutter.png",
+        imageURL: FlutterImg,
         heading: "flutter",
         link: "https://flutter.dev/?gclid=CjwKCAjwhdWkBhBZEiwA1ibLmE0TUwq3Q-p7R1znsS-PRc-4W4ADv89-hPNSux3NqOxp7iQ_bDI5rRoCNZIQAvD_BwE&gclsrc=aw.ds",
         description:
           "Flutter is an open-source UI software development kit created by Google.",
       },
       {
-        imageURL: "/img/courses/dart.png",
+        imageURL: DartImg,
         heading: "dart",
         link: "https://dart.dev/",
         description:
           "Dart is a programming language designed for client development, such as for the web and mobile apps.",
       },
       {
-        imageURL: "/img/courses/api.png",
+        imageURL: ApiImg,
         heading: "api",
         link: "https://developer.mozilla.org/en-US/docs/Web/API",
         description:
           "An application programming interface is a connection between computers or between computer programs.",
       },
       {
-        imageURL: "/img/courses/firebase.png",
+        imageURL: FirebaseImg,
         heading: "firebase",
         link: "https://firebase.google.com/",
         description:
@@ -364,154 +390,154 @@ export const allcourselist = [
 
     techlist: [
       {
-        imageURL: "/img/courses/html.png",
+        imageURL: HtmlImg,
         heading: "html",
         link: "https://developer.mozilla.org/en-US/docs/Web/HTML",
         description:
           "HTML is the standard markup language for Web pages. With HTML you can create your own Website.",
       },
       {
-        imageURL: "/img/courses/css.png",
+        imageURL:CssImg,
         heading: "css",
         link: "https://developer.mozilla.org/en-US/docs/Web/css",
         description:
           "CSS is the language we use to style an HTML document. CSS describes how HTML elements should be displayed.",
       },
       {
-        imageURL: "/img/courses/nodejs.png",
+        imageURL: NodeImg,
         heading: "node.js",
         link: "https://nodejs.org/en",
         description:
           "Node.js is an open-source server side framework allows you to run javascript on server.",
       },
       {
-        imageURL: "/img/courses/mongodb.png",
+        imageURL: MongoDBImg,
         heading: "mongodb",
         link: "https://www.mongodb.com/",
         description:
           "MongoDB is an open-source, high performance, NoSQL document database.",
       },
       {
-        imageURL: "/img/courses/python.png",
+        imageURL: PythonImg,
         heading: "python",
         link: "https://www.python.org/",
         description:
           "Python is a popular programming language allows you to create web, desktop and AI/ML applications.",
       },
       {
-        imageURL: "/img/courses/bootstrap.png",
+        imageURL: BootstrapImg,
         heading: "bootstrap",
         link: "https://getbootstrap.com/",
         description:
           "Bootstrap is the most popular CSS framework for developing responsive, mobile-first websites.",
       },
       {
-        imageURL: "/img/courses/tailwindcss-img.png",
+        imageURL: TailwindImg,
         heading: "tailwindcss",
         link: "https://tailwindcss.com/",
         description:
           "Tailwind CSS is basically a utility-first CSS framework for rapidly building custom user interfaces. ",
       },
       {
-        imageURL: "/img/courses/javascript-img.png",
+        imageURL: JavascriptImg,
         heading: "javascript",
         link: "https://www.javascript.com/",
         description:
           "JavaScript is the Programming Language for the Web. It can update and change both HTML and CSS.",
       },
       {
-        imageURL: "/img/courses/reactjs-img.png",
+        imageURL: ReactImg,
         heading: "react.js",
         link: "https://react.dev/",
         description:
           "React is a JavaScript library created by Facebook. React is a User Interface (UI) library.",
       },
       {
-        imageURL: "/img/courses/angular-img.png",
+        imageURL: AngularImg,
         heading: "angular.js",
         link: "https://angular.io/",
         description:
           "Angular is a platform and framework for building single-page client applications using HTML and TypeScript.",
       },
       {
-        imageURL: "/img/courses/django.png",
+        imageURL: DjangoImg,
         heading: "django",
         link: "https://www.djangoproject.com/",
         description:
           "Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design.",
       },
       {
-        imageURL: "/img/courses/nest.png",
+        imageURL: NestImg,
         heading: "nest.js",
         link: "https://nestjs.com/",
         description:
           "NestJS A progressive Node.js framework for building efficient, reliable and scalable server-side applications. ",
       },
       {
-        imageURL: "/img/courses/fast.png",
+        imageURL: FastApiImg,
         heading: "fast api ",
         link: "https://fastapi.tiangolo.com/lo/",
         description:
           "FastAPI is a modern, fast (high-performance), web framework for building APIs with Python. ",
       },
       {
-        imageURL: "/img/courses/veujs-img.png",
+        imageURL: VueImg,
         heading: "veu.js",
         link: "https://vuejs.org/",
         description:
           "Vue. js is a progressive framework for JavaScript used to build web interfaces and one-page applications.",
       },
       {
-        imageURL: "/img/courses/typescript-img.png",
+        imageURL: TypescriptImg,
         heading: "typescript",
         link: "https://www.typescriptlang.org/",
         description:
           "TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.",
       },
       {
-        imageURL: "/img/courses/matrialize-img.png",
+        imageURL: MaterialUIImg,
         heading: "Matrialize",
         link: "https://materializecss.com/",
         description:
           "Materialize is a modern responsive CSS framework based on Material Design by Google.",
       },
       {
-        imageURL: "/img/courses/matrialui-img.png",
+        imageURL: MaterialUIImg,
         heading: "matrial ui",
         link: "https://mui.com/",
         description:
           "MUI offers a comprehensive suite of UI tools to help you ship new features faster.",
       },
       {
-        imageURL: "/img/courses/flask.png",
+        imageURL: FlaskImg,
         heading: " flask",
         link: "https://flask.palletsprojects.com/en/2.3.x/",
         description:
           "Flask is a popular, extensible web micro-framework for building web applications with Python. ",
       },
       {
-        imageURL: "/img/courses/postgre.png",
+        imageURL:PostgreImg,
         heading: "postgre sql ",
         link: "https://www.postgresql.org/",
         description:
           " PostgreSQL is the World's Most Advanced Open Source Relational Database",
       },
       {
-        imageURL: "/img/courses/mysql.png",
+        imageURL: MySQLImg,
         heading: " mysql",
         link: "https://www.mysql.com/",
         description:
           " MySQL is a widely used RDBMS. MySQL is ideal for both small and large applications.",
       },
       {
-        imageURL: "/img/courses/firebase.png",
+        imageURL: FirebaseImg,
         heading: " Firebase",
         link: "https://firebase.google.com/",
         description:
           "Firebase is a platform developed by Google for creating mobile and web applications. ",
       },
       {
-        imageURL: "/img/courses/graqphql.png",
+        imageURL: GraphQLImg,
         heading: "graqphql ",
         link: "https://graphql.org/",
         description:

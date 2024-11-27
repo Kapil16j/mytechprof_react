@@ -25,6 +25,11 @@ const CourseDetails = () => {
     }
   }, [path]);
 
+
+
+
+  
+
   return (
     <>
         <Hero title={activeCourseDetails} />
