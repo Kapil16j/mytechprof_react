@@ -9,8 +9,8 @@ const RefundCancelPolicy = () => {
      
 
      
-        <Hero title="  Cancellation & Refund Policy " />
-        <div className="max-w-[1140px] mt-5 sm:mt-24 my-6 w-full mx-auto px-3 xl:px-0">
+        {/* <Hero title="  Cancellation & Refund Policy " /> */}
+        <div className="max-w-[1140px] mt-32 sm:mt-48 my-6 w-full mx-auto px-3 xl:px-0">
           <p className="text-center text-black text-base font-medium mt-4 max-w-[900px] mx-auto">
             At MyTech Professionals IT Company, we strive to provide exceptional services and
             products to our valued clients. We understand that there may be
@@ -26,7 +26,7 @@ const RefundCancelPolicy = () => {
           </p>
           <p className=" text-black text-base font-medium mt-4 max-w-[900px] mx-auto">
             a. If you wish to cancel a service, please contact our customer
-            support team at okkcode2023@gmail.com as soon as possible.
+            support team at mytechprofessionals@gmail.com as soon as possible.
           </p>
           <p className=" text-black text-base font-medium mt-4 max-w-[900px] mx-auto">
             b. Cancellation requests must be made within 10 days from the date

@@ -4,7 +4,7 @@ import Hero from "./Hero";
 const PricacyPolicyData = () => {
   return (
     <div>
-      <div className="max-w-[1320px] mt-5 sm:mt-24 mx-auto px-3 2xl:px-0">
+      <div className="max-w-[1320px] mt-32 sm:mt-48 mx-auto px-3 2xl:px-0">
         <p className=" text-black text-base font-medium mt-4 max-w-[900px] mx-auto">
           Welcome to the Privacy Policy of My Tech Professionals, an IT company committed to
           protecting your privacy. This Privacy Policy outlines how we collect,

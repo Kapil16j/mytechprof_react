@@ -1,6 +1,7 @@
 import React from "react";
 
 import Software1 from "../../assets/img/home/software1.jpg"
+import { CompanyName } from "../common/base";
 
 const AboutUs = () => {
   return (
@@ -20,7 +21,7 @@ const AboutUs = () => {
               About <span className=" about_us_color ">Us</span>
             </h1>
             <p className="text-[16px] font-normal mt-5 leading-[25px] text-black">
-            My Tech Professionals, is a leading IT company that specializes in providing
+           {CompanyName}, is a leading IT company that specializes in providing
               cutting-edge solutions to businesses of all sizes. With a team of
               highly skilled professionals, we offer a wide range of services
               including software development, web design, mobile app
@@ -29,7 +30,7 @@ const AboutUs = () => {
               clients. We pride ourselves on delivering high-quality projects on
               time and within budget. Our customer-centric approach, attention
               to detail, and commitment to excellence set us apart. Partner with
-              My Tech Professionals, to leverage technology and elevate your business to new
+              {CompanyName}, to leverage technology and elevate your business to new
               heights. Let&apos;s embark on a transformative journey together.
             </p>
           </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import { MaintainenceIcon } from "../common/icon";
 import {  Link } from "react-router-dom";
+import { CompanyName } from "../common/base";
 
 const AboutUsDetails = () => {
   return (
@@ -12,7 +13,7 @@ const AboutUsDetails = () => {
               About Us
             </p>
             <p className="text-[16px] mt-7 font-normal leading-6 text-center lg:text-start text-black max-w-[512px]">
-            My Tech Professionals is a leading IT company that specializes in providing
+            {CompanyName} is a leading IT company that specializes in providing
               cutting-edge solutions to businesses of all sizes. With a team of
               highly skilled professionals, we offer a wide range of services
               including software development, web design, mobile app
@@ -21,7 +22,7 @@ const AboutUsDetails = () => {
               clients. We pride ourselves on delivering high-quality projects on
               time and within budget. Our customer-centric approach, attention
               to detail, and commitment to excellence set us apart. Partner with
-              My Tech Professionals to leverage technology and elevate your business to new
+              {CompanyName} to leverage technology and elevate your business to new
               heights. Let&apos;s embark on a transformative journey together.
             </p>
             <Link href="/our-courses">

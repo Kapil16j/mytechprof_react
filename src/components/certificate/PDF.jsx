@@ -1,3 +1,5 @@
+import { CompanyName } from "../common/base";
+
 const PDF = ({ certId, name, courseName, startDate, endDate }) => {
   const formattedDate = (date) => {
     const formatted = new Date(date).toLocaleDateString("en-us", {
@@ -72,7 +74,7 @@ const PDF = ({ certId, name, courseName, startDate, endDate }) => {
               {formattedDate(startDate)} to {formattedDate(endDate)}
             </span>
           </p>
-          <p>at My Tech Professionals® Pvt. Ltd. Hisar. </p>
+          <p>at {CompanyName}® Pvt. Ltd. Hisar. </p>
           <p>
             The company acknowledge that she followed all the required
             specifications.

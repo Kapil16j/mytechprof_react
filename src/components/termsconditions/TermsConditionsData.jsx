@@ -3,7 +3,7 @@ import React from "react";
 const TermsConditionsData = () => {
   return (
     <div>
-      <div className="max-w-[1320px] mt-5 sm:mt-24 mx-auto w-full px-3 2xl:px-0">
+      <div className="max-w-[1320px] mt-10 sm:mt-48 mx-auto w-full px-3 2xl:px-0">
         <p className=" text-black text-base font-medium mt-4 max-w-[900px] mx-auto">
           Welcome to the Terms & Conditions of My Tech Professionals, an IT company committed
           to delivering the best possible services to our clients. These Terms &

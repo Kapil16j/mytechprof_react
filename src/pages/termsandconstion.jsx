@@ -6,7 +6,7 @@ const TermsConditions = () => {
   return (
     <div>
     
-        <Hero title="Terms & Conditions" />
+        {/* <Hero title="Terms & Conditions" /> */}
         <TermsConditionsData />
     
     </div>

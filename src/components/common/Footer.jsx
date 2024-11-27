@@ -12,6 +12,7 @@ import { BrowserRouter as Router, Routes, Route, Link,useNavigate } from "react-
 import Navlogo from "../../assets/img/logo/navlogo.png"
 import footerImg from "../../assets/img/home/footer-img.png"
 import { homeRoute } from "./base";
+import { CompanyName } from "./base";
 
 const Footer = () => {
   const date = new Date().getFullYear();
@@ -229,7 +230,7 @@ const Footer = () => {
         </div>
         <div className="border-t mt-[90px] border-white/30 py-7">
           <p className="text-white px-3  text-[16px] text-center font-medium leading-5">
-            {date} My Tech Professionals company. All right reserved
+            {date} {CompanyName} company. All right reserved
           </p>
         </div>
       </div>

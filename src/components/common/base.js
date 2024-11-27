@@ -5,3 +5,9 @@ export const contactUsRoute ="/contact-us"
 export const servicesRoute ="/our-services"
 export const aboutUsRoute ="/about-us"
 
+// company detial 
+
+export const CompanyName ="MYTECH PROFESSIONAL"
+export const CompanyPhone ="9876543210"
+export const CompanyEmail ="mytechProfessional.com"
+

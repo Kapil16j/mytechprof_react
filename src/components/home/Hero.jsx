@@ -2,6 +2,7 @@ import React from "react";
 import MovingText from "react-moving-text";
 import {useNavigate } from "react-router-dom";
 import { baseImg } from "../common/base";
+import { CompanyName } from "../common/base";
 
 import HeroIllustration from "../../assets/img/home/hero-illustration.svg"
 
@@ -42,12 +43,12 @@ const Hero = () => {
               iteration="1"
               fillMode="none"
             >
-              Hello and thank you for visiting My Tech Professionals, Your Path to Seamless
+              Hello and thank you for visiting {CompanyName}, Your Path to Seamless
               Digital Solutions.
             </MovingText>
           </h1>
           <p className="text-black font-normal text-[16px] lg:text-[18px]  leading-[30px] text-opacity-90 my-4 max-w-[470px] lg:max-w-[590px]">
-            At My Tech Professionals, we specialise in creating cutting-edge websites and
+            At {CompanyName}, we specialise in creating cutting-edge websites and
             intuitive applications that give businesses the tools they need to
             succeed online. We offer specialised solutions that are suited to
             your particular demands with the help of our talented team of

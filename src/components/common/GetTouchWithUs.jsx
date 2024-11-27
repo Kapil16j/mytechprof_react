@@ -1,5 +1,7 @@
 import {  Link } from "react-router-dom";
 import React from "react";
+import { CompanyName,CompanyPhone,CompanyEmail } from "./base";
+
 
 const GetTouchWithUs = () => {
   return (
@@ -10,28 +12,28 @@ const GetTouchWithUs = () => {
             Get In <span className=" about_us_color ">Touch With Us</span>
           </h1>
           <p className="text-[16px] font-normal leading-6 mt-4 text-center text-[#171328]/80">
-            At My Tech Professionals, we are eager to connect with you and provide top-notch
+            At {CompanyName}, we are eager to connect with you and provide top-notch
             IT solutions. Reach out to us today to discuss your requirements,
             projects, or any queries you have. You can contact us via phone at
             <Link href="tel:9999999999">
               <span className="text-[#3671CA] text-[20px] hover:text-black hover:scale-125">
                 {" "}
-                999999999999
+                {CompanyPhone}
               </span>
             </Link>{" "}
             or email us at{" "}
             <Link
               className="text-[#3671CA] text-[20px] hover:text-black hover:scale-125"
-              href="mailto:mytechprofessionals@email.com"
+              href={`mailto:${CompanyEmail}`}
             >
-              mytechprofessionals@email.com
+              {CompanyEmail}
             </Link>
             . Alternatively, visit our website at{" "}
             <Link
               className="text-[#3671CA] text-[20px] hover:text-black hover:scale-125"
               href="/"
             >
-               MyTechProfessionals.com
+               {CompanyEmail}
             </Link>{" "}
             to access our inquiry form and receive a prompt response.
           </p>

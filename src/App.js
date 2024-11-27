@@ -15,11 +15,22 @@ import NotFound from "./pages/notfound";
 import CourseDetails from "./pages/courseDetail";
 import WebMaintainence from "./pages/webmaintanance";
 import Sidebar from "./components/common/Sidebar";
+import { DownToUpLogo } from "./components/common/icon";
 
 function App() {
   const [isSidebarOpen, setSidebarOpen] = useState(false);
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
   return (
     <Router >
+       <div
+        onClick={scrollToTop}
+        className="animate-bounce  cursor-pointer z-[99999999999] fixed right-5 bottom-5"
+      >
+        <DownToUpLogo />
+      </div>
       <Navbar setSidebarOpen={setSidebarOpen} />
       <Sidebar setSidebarOpen={setSidebarOpen} isSidebarOpen={isSidebarOpen} />
       <Routes>
