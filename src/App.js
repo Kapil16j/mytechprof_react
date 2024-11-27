@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Navbar from "./components/common/Navbar"
 import Footer from "./components/common/Footer"
@@ -14,12 +14,14 @@ import GetTouchWithUs from "./components/common/GetTouchWithUs";
 import NotFound from "./pages/notfound";
 import CourseDetails from "./pages/courseDetail";
 import WebMaintainence from "./pages/webmaintanance";
+import Sidebar from "./components/common/Sidebar";
 
 function App() {
+  const [isSidebarOpen, setSidebarOpen] = useState(false);
   return (
     <Router >
-      {/* basename="/mytech" */}
-      <Navbar />
+      <Navbar setSidebarOpen={setSidebarOpen} />
+      <Sidebar setSidebarOpen={setSidebarOpen} isSidebarOpen={isSidebarOpen} />
       <Routes>
         <Route path="/mytechreact" element={<Home />} />
         <Route path="/our-courses" element={<OurCourses />} />

@@ -1,6 +1,6 @@
 import React from "react";
 import { DesignPhaseIcon, LaunchMaintenanceIcon } from "../common/icon";
- ;
+import Wavesimg from "../../assets/img/home/waves-img.png" 
 
 const ProjectLifeCycle = () => {
   return (
@@ -109,7 +109,7 @@ const ProjectLifeCycle = () => {
           </div>
           <div className="hidden xl:block absolute top-[120px] left-[16px] z-[-1]">
             <img
-              src="/img/home/waves-img.png"
+              src={Wavesimg}
               width={1088}
               height={210}
               alt="waves img"
