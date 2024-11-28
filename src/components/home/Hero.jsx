@@ -1,6 +1,6 @@
 import React from "react";
 import MovingText from "react-moving-text";
-import {useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { baseImg } from "../common/base";
 import { CompanyName } from "../common/base";
 
@@ -31,7 +31,8 @@ const Hero = () => {
         alt="hero section img"
       /> */}
 
-      <div className="mx-auto max-w-[1140px] w-full flex items-center pt-28 lg:py-36 px-3 sm:px-4 mb-10 sm:mb-20 xl:mb-0">
+      <div className="mx-auto max-w-[1140px] w-full flex items-center pt-28 lg:py-36 px-3 sm:px-4 mb-10 sm:mb-20 xl:mb-0 mt-12 sm:mt-0">
+
         <div className="max-w-[560px] 2xl:max-w-[670px]">
           <h1 className="text-black font-extrabold text-[30px] sm:text-[38px] leading-[38px] sm:leading-[48px] font-springbold">
             <MovingText

@@ -5,6 +5,9 @@ const PricacyPolicyData = () => {
   return (
     <div>
       <div className="max-w-[1320px] mt-32 sm:mt-48 mx-auto px-3 2xl:px-0">
+      <h2 className=" mt-10 text-primary text-[40px] text-center font-bold leading-[35px]">
+          Privacy Policy
+        </h2>
         <p className=" text-black text-base font-medium mt-4 max-w-[900px] mx-auto">
           Welcome to the Privacy Policy of My Tech Professionals, an IT company committed to
           protecting your privacy. This Privacy Policy outlines how we collect,

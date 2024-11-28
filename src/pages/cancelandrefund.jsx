@@ -6,11 +6,12 @@ import React from "react";
 const RefundCancelPolicy = () => {
   return (
     <div>
-     
-
-     
         {/* <Hero title="  Cancellation & Refund Policy " /> */}
         <div className="max-w-[1140px] mt-32 sm:mt-48 my-6 w-full mx-auto px-3 xl:px-0">
+
+        <h2 className=" mt-10 text-primary text-[40px] text-center font-bold leading-[35px]">
+          Cancel & Refund Policy
+        </h2>
           <p className="text-center text-black text-base font-medium mt-4 max-w-[900px] mx-auto">
             At MyTech Professionals IT Company, we strive to provide exceptional services and
             products to our valued clients. We understand that there may be

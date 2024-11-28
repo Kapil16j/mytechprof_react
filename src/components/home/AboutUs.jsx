@@ -1,6 +1,7 @@
 import React from "react";
 
 import Software1 from "../../assets/img/home/software1.jpg"
+import Aboutusimg from "../../assets/img/home/aboutusimg.jpg"
 import { CompanyName } from "../common/base";
 
 const AboutUs = () => {
@@ -10,7 +11,7 @@ const AboutUs = () => {
         <div className="flex flex-col lg:flex-row items-center justify-between">
           <div className="lg:order-1 mt-5 lg:mt-0 order-2">
             <img
-              src={Software1}
+              src={Aboutusimg}
               width={514}
               height={517}
               alt="aboutus img"

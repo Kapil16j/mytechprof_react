@@ -10,8 +10,6 @@ import { homeRoute,ourcourseRoute,contactUsRoute,servicesRoute,aboutUsRoute } fr
 
 const Navbar = ({ setSidebarOpen }) => {
   const router = useNavigate();
-
-
   const navlinks = [
     {
       title: "Home",

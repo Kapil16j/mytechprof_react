@@ -41,7 +41,7 @@ const Sidebar = ({ isSidebarOpen, setSidebarOpen }) => {
               <li key={index}>
                 <Link
                   passHref
-                  href={obj.url}
+                  to={obj.url}
                   className="text-white font-medium text-[20px] transition-all duration-200 ease-in"
                 >
                   {obj.title}
