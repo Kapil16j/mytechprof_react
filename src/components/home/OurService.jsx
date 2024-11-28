@@ -65,7 +65,7 @@ const OurService = () => {
         </div>
 
         <div className="mt-[50px] flex justify-center">
-          <Link href="/our-services">
+          <Link to="/our-services">
             <button className="text-[16px] shadow-[0px_2px_14px_rgba(60,124,221,0.38)] font-semibold text-white w-[173px] bg-[#231E62] h-[49px] rounded-[10px]">
               View All Services
             </button>

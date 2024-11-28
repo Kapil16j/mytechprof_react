@@ -66,7 +66,7 @@ const Navbar = ({ setSidebarOpen }) => {
                 ))}
             </ul>
 
-            <Link href="/contact-us">
+            <Link to="/contact-us">
               <button className="text-[16px] mx-4 shadow-[0px_2px_14px_rgba(60,124,221,0.38)] font-semibold text-white w-[143px] sm:w-[173px] bg-[#231E62] h-[49px] rounded-[2px]">
                 Contact us
                 <span></span>

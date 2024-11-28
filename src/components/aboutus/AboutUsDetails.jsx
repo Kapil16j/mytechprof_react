@@ -25,7 +25,7 @@ const AboutUsDetails = () => {
               {CompanyName} to leverage technology and elevate your business to new
               heights. Let&apos;s embark on a transformative journey together.
             </p>
-            <Link href="/our-courses">
+            <Link to="/our-courses">
               <button className="text-[16px] mt-[28px] shadow-[0px_2px_14px_rgba(60,124,221,0.38)] font-semibold text-white w-[135px] bg-[#231E62] h-[49px] rounded-[10px]">
                 Learn More
                 <span></span>

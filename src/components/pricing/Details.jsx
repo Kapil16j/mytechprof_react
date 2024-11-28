@@ -13,15 +13,15 @@ const Details = () => {
       <div className="max-w-[943px] px-3 xl:px-0 mt-10 mx-auto w-full">
         <p className="text-[16px] font-normal text-center text-black leading-6">
           To get more information about pricing for our services at{" "}
-          <Link href="/">
+          <Link to="/">
             <span className="font-bold hover:text-primary">My Tech Professionals</span>
           </Link>
           , please reach out to us directly. You can contact us via phone at{" "}
-          <Link href="tel:+91999999999">
+          <Link to="tel:+91999999999">
             <span className="font-bold hover:text-primary">999999999</span>
           </Link>{" "}
           or send an email to{" "}
-          <Link href="mailto:okk@gmail.com">
+          <Link to="mailto:okk@gmail.com">
             <span className="font-bold hover:text-primary">
             My_Tech_Professionals@gmail.com
             </span>{" "}
@@ -40,18 +40,18 @@ const Details = () => {
               <FacebooksIcon />
             </span>
           </Link>
-          <Link href="https://wa.me/+919800003072" target="_blank">
+          <Link to="https://wa.me/+919800003072" target="_blank">
             <span className="w-[60px] h-[60px] rounded-[50%] border border-[#3671CA] hover:scale-110 flex items-center justify-center">
               <WhatsAppIcon />
             </span>
           </Link>
-          <Link href="https://www.instagram.com/okk_code/" target="_blank">
+          <Link to="https://www.instagram.com/okk_code/" target="_blank">
             <span className="w-[60px] h-[60px] rounded-[50%] border border-[#3671CA] hover:scale-110 flex items-center justify-center">
               <InstagramsIcon />
             </span>
           </Link>
 
-          <Link href="https://t.me/+919800003072" target="_blank">
+          <Link to="https://t.me/+919800003072" target="_blank">
             <span className="w-[60px] h-[60px] rounded-[50%] border border-[#3671CA] hover:scale-110 flex items-center justify-center">
               <TelegramIcon />
             </span>

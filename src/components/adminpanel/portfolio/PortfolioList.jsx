@@ -22,7 +22,7 @@ const PortfolioList = ({ item, handleDeletePortfolio }) => {
         </div>
       </div>
       <div className="flex items-center gap-[15px]">
-        <Link href={`/admin/portfolio/form?id=${item._id}`} passHref>
+        <Link to={`/admin/portfolio/form?id=${item._id}`} passHref>
           <button className="text-[#152B4D] font-poppins leading-7 text-[24px] bg-[#E6EBEE] rounded-[8px] w-[120px] sm:w-[141px] h-[48px] ">
             Edit
             <span></span>
@@ -32,7 +32,7 @@ const PortfolioList = ({ item, handleDeletePortfolio }) => {
           </button>
         </Link>
 
-        <Link href={`/admin/portfolio/form?id=${item._id}`} passHref>
+        <Link to={`/admin/portfolio/form?id=${item._id}`} passHref>
           <button className="text-white font-poppins leading-7 text-[24px] bg-[linear-gradient(90deg,#3671CA_0%,#232065_100%)] rounded-[8px] w-[120px] sm:w-[141px] h-[48px] ">
             View
             <span></span>

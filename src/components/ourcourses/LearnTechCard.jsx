@@ -19,7 +19,7 @@ const LearnTechCard = ({ obj }) => {
           {description}
         </p>
         <div className="group-hover:block none flex mt-3 justify-center ">
-          <Link href={`${link}`} target="_blank">
+          <Link to={`${link}`} target="_blank">
             <p className="text-[20px]  leading-6 text-center cursor-pointer text-white font-bold ">
               <u className="text-center">View All</u>
             </p>

@@ -83,7 +83,7 @@ const LoginForm = () => {
             {password ? <OpenEyeIcon /> : <CloseEyeIcon />}
           </span>
         </div>
-        <Link href="#">
+        <Link to="#">
           <p className="text-[20px] font-normal mt-8 w-full max-w-full text-end text-black leading-6 ">
             Forget Password
           </p>
@@ -95,7 +95,7 @@ const LoginForm = () => {
       </form>
       <p className="text-[16px] font-medium mt-5 text-center leading-6 text-[#152B4D]">
         Don’t have an accout?{" "}
-        <Link href="#" className="text-[#3671CA]">
+        <Link to="#" className="text-[#3671CA]">
           Create an account
         </Link>
       </p>

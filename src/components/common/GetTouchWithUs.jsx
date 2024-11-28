@@ -15,7 +15,7 @@ const GetTouchWithUs = () => {
             At {CompanyName}, we are eager to connect with you and provide top-notch
             IT solutions. Reach out to us today to discuss your requirements,
             projects, or any queries you have. You can contact us via phone at
-            <Link href="tel:9999999999">
+            <Link to="tel:9999999999">
               <span className="text-[#3671CA] text-[20px] hover:text-black hover:scale-125">
                 {" "}
                 {CompanyPhone}
@@ -38,7 +38,7 @@ const GetTouchWithUs = () => {
             to access our inquiry form and receive a prompt response.
           </p>
           <div className="flex justify-center ">
-            <Link href="/contact-us">
+            <Link to="/contact-us">
               <button
                 className="text-[16px] mt-[33px] shadow-[0px_2px_14px_rgba(60,124,221,0.38)] font-semibold text-white w-[135px]
                bg-[linear-gradient(222.96deg,#231E62_2.41%,#3671CA_99.1%)] h-[49px] rounded-[10px]"

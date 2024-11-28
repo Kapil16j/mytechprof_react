@@ -42,7 +42,7 @@ const SignForm = () => {
             {password ? <OpenEyeIcon /> : <CloseEyeIcon />}
           </span>
         </div>
-        <Link href="#">
+        <Link to="#">
           <p className="text-[20px] font-normal mt-8 w-full max-w-full text-end text-black leading-6 ">
             Forget Password
           </p>
@@ -68,7 +68,7 @@ const SignForm = () => {
         Already have an account
         <span>
           {" "}
-          <Link href="#" className="text-[#3671CA]">
+          <Link to="#" className="text-[#3671CA]">
             Login
           </Link>
         </span>
