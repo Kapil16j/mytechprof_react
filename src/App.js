@@ -25,7 +25,7 @@ function App() {
   };
   return (
     <Router >
-       <div
+      <div
         onClick={scrollToTop}
         className="animate-bounce  cursor-pointer z-[99999999999] fixed right-5 bottom-5"
       >

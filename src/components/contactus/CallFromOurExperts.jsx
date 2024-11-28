@@ -1,17 +1,30 @@
 import React from "react";
 import ContactForm from "./ContactForm";
 import { Link } from "react-router-dom";
-import { CompanyPhone,CompanyEmail,CompanyName } from "../common/base";
+import { CompanyPhone, CompanyEmail, CompanyName } from "../common/base";
 
 const CallFromOurExperts = () => {
   return (
     <div className="z-50">
+      
       <div className="max-w-[1140px] z-[9999] mt-40 px-3 xl:px-0 mx-auto w-full">
+
+        
 
         <h1 className="text-[30px] max-w-[644px] w-full mx-auto text-center sm:text-[44px]  font-bold leading-[34px] sm:leading-[60px] text-black">
           Book A Instant Call Back From
           <span className=" about_us_color ">Our Experts</span>
         </h1>
+
+        <div className="flex items-center justify-center min-h-screen ">
+            <div
+              className=" w-full z-[999] mt-10 rounded-[8px]
+                 shadow-[0px_6px_29px_rgba(54,113,202,0.15)] pt-5 sm:pt-[51px] pb-5 sm:pb-[35px] px-5 sm:px-[35px]"
+            >
+              <p className="font-bold leading-10 text-[36px] text-black">Book A Call</p>
+              <ContactForm />
+            </div>
+          </div>
 
         <div className="py-[54px] rounded-[8px] px-3 xl:px-0 bg-white shadow-[0px_6px_29px_rgba(54,113,202,0.15)]">
           <div className="flex justify-between flex-col lg:flex-row max-w-[1036px] mx-auto items-center">
@@ -74,15 +87,7 @@ const CallFromOurExperts = () => {
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           </div> */}
-          <div className="flex items-center justify-center min-h-screen ">
-            <div
-              className=" w-full z-[999] mt-10 rounded-[8px]
-    shadow-[0px_6px_29px_rgba(54,113,202,0.15)] pt-5 sm:pt-[51px] pb-5 sm:pb-[35px] px-5 sm:px-[35px]"
-            >
-              <p className="font-bold leading-10 text-[36px] text-black">Book A Call</p>
-              <ContactForm />
-            </div>
-          </div>
+         
 
         </div>
       </div>
