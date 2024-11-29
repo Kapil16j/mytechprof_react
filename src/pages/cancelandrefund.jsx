@@ -4,6 +4,8 @@ import Hero from "../components/privacypolicy/Hero";
 import React from "react";
 
 const RefundCancelPolicy = () => {
+
+  
   return (
     <div>
         {/* <Hero title="  Cancellation & Refund Policy " /> */}

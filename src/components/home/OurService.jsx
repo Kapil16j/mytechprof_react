@@ -48,7 +48,8 @@ const OurService = () => {
               <div key={index} className="px-3">
                 <div className="max-w-[364px] mx-auto rounded-[18px] transition duration-300 ease-in-out group hover:bg-[linear-gradient(222.96deg,#231E62_2.41%,#3671CA_99.1%)] animation bg-white pt-[27px] shadow-[0px_6px_29px_rgba(54,113,202,0.12)] w-full">
                   <div className="mx-auto max-w-[207px] h-[208px] flex justify-end items-end">
-                    {item.svg}
+                    {/* {item.svg} */}
+                    <img src={item.img} className="w-fit"></img>
                   </div>
                   <div className="mt-2 sm:mt-[18px] px-3 sm:px-[29px] pb-8">
                     <h3 className="font-bold text-center leading-7  group-hover:text-white text-[20px] sm:text-[24px] text-black">

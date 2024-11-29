@@ -3,6 +3,8 @@ import TermsConditionsData from "../components/termsconditions/TermsConditionsDa
 import React from "react";
 
 const TermsConditions = () => {
+
+  
   return (
     <div>
     

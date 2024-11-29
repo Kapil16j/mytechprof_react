@@ -4,6 +4,7 @@ import PricacyPolicyData from "../components/privacypolicy/PricacyPolicyData";
 import React from "react";
 
 const Privacypolicy = () => {
+  
   return (
     <>
     

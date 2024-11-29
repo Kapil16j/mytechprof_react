@@ -16,6 +16,7 @@ import CourseDetails from "./pages/courseDetail";
 import WebMaintainence from "./pages/webmaintanance";
 import Sidebar from "./components/common/Sidebar";
 import { DownToUpLogo } from "./components/common/icon";
+import ScrollToTop from "./components/common/scrolltotop";
 
 function App() {
   const [isSidebarOpen, setSidebarOpen] = useState(false);
@@ -31,10 +32,15 @@ function App() {
       >
         <DownToUpLogo />
       </div>
+      <ScrollToTop />  
+      {/* scroll to top is used to when change route going to top */}
       <Navbar setSidebarOpen={setSidebarOpen} />
       <Sidebar setSidebarOpen={setSidebarOpen} isSidebarOpen={isSidebarOpen} />
       <Routes>
+        <Route path="/" element={<Home />} />
         <Route path="/mytechreact" element={<Home />} />
+        <Route path="/mytechpro" element={<Home />} />
+        
         <Route path="/our-courses" element={<OurCourses />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/our-services" element={<OurService />} />

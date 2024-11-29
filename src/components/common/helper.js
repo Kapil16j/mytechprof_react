@@ -48,6 +48,13 @@ import FlutterImg from "../../assets/img/courses/flutter.png";
 import DartImg from "../../assets/img/courses/dart.png";
 import ApiImg from "../../assets/img/courses/api.png";
 
+import Emailhost from "../../assets/img/home/emailhost.jpg"
+import LinuxMail from "../../assets/img/home/linuxmail.png"
+import WebApp from "../../assets/img/home/webapp.png"
+import WebHost from "../../assets/img/home/websitehost.jpg"
+import WebDesignandDevelop from "../../assets/img/home/webdesignanddev.jpg"
+import Iomsimg from "../../assets/img/home/iomsimg.jpg"
+
 export const allcourselist = [
   {
     slug: "frontend",
@@ -652,37 +659,51 @@ export const refundCancelPolicy = [
   },
 ];
 
+
+
 export const ourServiceData = [
   {
+    img:Iomsimg,
     svg: <MobileAppDevelopmentIcon />,
-    title: "Mobile App Development",
+    title: "Integrated Online Management System",
+    desc: "Welcome to My Tech Professionals, It sounds like you're referring to an IOMS (Integrated Online Management System) designed for University Management. An IOMS for university management is typically a software platform that integrates various functions related to the administration of a university or educational institution. These systems streamline processes such as student registration, course management, grading, attendance tracking, and more.",
+  },
+  {
+    img:Emailhost,
+    svg: <MobileAppDevelopmentIcon />,
+    title: "Email Hosting",
     desc: "Welcome to My Tech Professionals, your trusted partner in mobile app development. We are a leading provider of comprehensive mobile app development services, specializing in creating high-quality, feature-rich applications for a wide range of industries and platforms. With our talented team of developers, designers, and strategists, we are committed to delivering innovative solutions that drive business growth and exceed customer expectations.",
   },
   {
+    img:LinuxMail,
     svg: <BackEndDevelopmentIcon />,
-    title: "Backend Development",
+    title: "Linux Mail Server",
     desc: "Welcome to My Tech Professionals, your trusted partner for robust and scalable backend development solutions. We specialize in building powerful and reliable server-side architectures that drive the functionality and performance of your applications. With our expertise in backend technologies, we help businesses across diverse industries optimize their digital infrastructure and deliver exceptional user experiences.",
   },
   {
+    img:WebApp,
     svg: <WordPressDevelopmenticon />,
-    title: "Web Development",
+    title: "Web Application",
     desc: "Welcome to My Tech Professionals, your trusted partner for web development solutions. We specialize in creating dynamic, interactive, and visually appealing websites that engage users and drive business growth. With our expertise in web technologies and a team of skilled developers, we deliver tailored web solutions that meet your unique requirements and leave a lasting impression on your audience.",
   },
   {
+    img:WebHost,
     svg: <BlockchainDevelopmenticon />,
-    title: "Blockchain Development",
+    title: "Website Hosting",
     desc: "Welcome to My Tech Professionals, your trusted partner for blockchain development solutions. We specialize in leveraging blockchain technology to build secure, transparent, and decentralized applications that transform industries and drive innovation. With our expertise in blockchain protocols and smart contract development, we help businesses harness the power of this revolutionary technology to optimize processes, enhance security, and foster trust.",
   },
   {
+    img:WebDesignandDevelop,
     svg: <WordPressDevelopmenticon />,
-    title: "WordPress Developer",
+    title: "Web Designing and Development",
     desc: "Welcome to My Tech Professionals, your trusted partner for WordPress development solutions. We specialize in harnessing the power of WordPress, the world's leading content management system (CMS), to create stunning and feature-rich websites. With our expertise in WordPress development, we help businesses of all sizes establish a robust online presence, engage their audience, and achieve their digital goals.",
   },
-  {
-    svg: <UiUxDesignicon />,
-    title: "UI/UX Design",
-    desc: "Welcome to My Tech Professionals, your trusted partner for exceptional UI/UX design solutions. We specialize in creating intuitive, visually stunning, and user-centric interfaces that elevate digital experiences. With our expertise in UI/UX design, we help businesses across various industries enhance their online presence, engage users, and drive conversions.",
-  },
+  // {
+  //   img:WebApp,
+  //   svg: <UiUxDesignicon />,
+  //   title: "UI/UX Design",
+  //   desc: "Welcome to My Tech Professionals, your trusted partner for exceptional UI/UX design solutions. We specialize in creating intuitive, visually stunning, and user-centric interfaces that elevate digital experiences. With our expertise in UI/UX design, we help businesses across various industries enhance their online presence, engage users, and drive conversions.",
+  // },
 ];
 export const ourteam = [
   {

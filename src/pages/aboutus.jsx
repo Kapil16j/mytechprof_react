@@ -1,8 +1,11 @@
 import AboutUsDetails from "../components/aboutus/AboutUsDetails";
 
-import React from "react";
+import React, { useEffect } from "react";
 
 const AboutUs = () => {
+  
+
+ 
   return (
    
       <AboutUsDetails />
