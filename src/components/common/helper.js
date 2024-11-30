@@ -663,48 +663,182 @@ export const refundCancelPolicy = [
 
 export const ourServiceData = [
   {
-    img:Iomsimg,
+    img: Iomsimg,
     svg: <MobileAppDevelopmentIcon />,
     title: "Integrated Online Management System",
-    desc: "Welcome to My Tech Professionals, It sounds like you're referring to an IOMS (Integrated Online Management System) designed for University Management. An IOMS for university management is typically a software platform that integrates various functions related to the administration of a university or educational institution. These systems streamline processes such as student registration, course management, grading, attendance tracking, and more.",
+    desc: "An Integrated Online Management System (IOMS) is a centralized software solution designed to streamline university management processes...",
+    slug: "ioms",
+    detailSections: [
+      {
+        heading: "Core Features of IOMS",
+        details: [
+          "Student registration and course enrollment management.",
+          "Automated grading and attendance tracking.",
+          "Integrated communication tools for faculty and students.",
+          "Customizable dashboards for administrators and users.",
+          "Comprehensive analytics and reporting features."
+        ]
+      },
+      {
+        heading: "Benefits for Educational Institutions",
+        details: [
+          "Streamlined administrative processes reduce manual work.",
+          "Enhanced data accuracy and real-time updates.",
+          "Improved collaboration between departments and stakeholders.",
+          "Secure data storage with easy retrieval options.",
+          "Scalability to accommodate growing institutions."
+        ]
+      }
+    ]
   },
   {
-    img:Emailhost,
+    img: Emailhost,
     svg: <MobileAppDevelopmentIcon />,
     title: "Email Hosting",
-    desc: "Welcome to My Tech Professionals, your trusted partner in mobile app development. We are a leading provider of comprehensive mobile app development services, specializing in creating high-quality, feature-rich applications for a wide range of industries and platforms. With our talented team of developers, designers, and strategists, we are committed to delivering innovative solutions that drive business growth and exceed customer expectations.",
+    desc: "Email hosting is a service that enables businesses and individuals to send and receive emails using their domain name...",
+    slug: "email_hosting",
+    detailSections: [
+      {
+        heading: "Key Features of Email Hosting",
+        details: [
+          "Custom email addresses with your domain name.",
+          "Advanced spam and malware protection.",
+          "Generous storage capacity for emails and attachments.",
+          "Support for IMAP, POP3, and SMTP protocols.",
+          "Mobile and desktop client compatibility."
+        ]
+      },
+      {
+        heading: "Advantages of Professional Email Hosting",
+        details: [
+          "Enhances brand credibility with custom domains.",
+          "Ensures data security with encrypted communication.",
+          "Scales with business growth for additional users.",
+          "24/7 technical support for uninterrupted service.",
+          "Automatic backups prevent data loss."
+        ]
+      }
+    ]
   },
   {
-    img:LinuxMail,
+    img: LinuxMail,
     svg: <BackEndDevelopmentIcon />,
     title: "Linux Mail Server",
-    desc: "Welcome to My Tech Professionals, your trusted partner for robust and scalable backend development solutions. We specialize in building powerful and reliable server-side architectures that drive the functionality and performance of your applications. With our expertise in backend technologies, we help businesses across diverse industries optimize their digital infrastructure and deliver exceptional user experiences.",
+    desc: "A Linux Mail Server is a robust and reliable solution for handling enterprise email communication...",
+    slug: "linux_mail_server",
+    detailSections: [
+      {
+        heading: "Core Capabilities of a Linux Mail Server",
+        details: [
+          "Highly configurable with open-source software like Postfix or Exim.",
+          "Advanced spam filtering and email routing.",
+          "Supports SSL/TLS encryption for secure communication.",
+          "Seamless integration with LDAP and directory services.",
+          "Flexible user management and domain handling."
+        ]
+      },
+      {
+        heading: "Why Choose a Linux Mail Server?",
+        details: [
+          "Cost-effective and resource-efficient solution.",
+          "Scalability for small to enterprise-level deployments.",
+          "High reliability with minimal downtime.",
+          "Community support for troubleshooting and updates.",
+          "Customizable to fit specific organizational needs."
+        ]
+      }
+    ]
   },
   {
-    img:WebApp,
+    img: WebApp,
     svg: <WordPressDevelopmenticon />,
     title: "Web Application",
-    desc: "Welcome to My Tech Professionals, your trusted partner for web development solutions. We specialize in creating dynamic, interactive, and visually appealing websites that engage users and drive business growth. With our expertise in web technologies and a team of skilled developers, we deliver tailored web solutions that meet your unique requirements and leave a lasting impression on your audience.",
+    desc: "Web applications are dynamic, interactive platforms that run on web browsers, providing users with advanced functionality...",
+    slug: "web_application",
+    detailSections: [
+      {
+        heading: "Features of Web Applications",
+        details: [
+          "Responsive design for seamless user experiences on all devices.",
+          "Integration with APIs for enhanced functionality.",
+          "Real-time data processing and updates.",
+          "User authentication and role-based access control.",
+          "Custom dashboards and analytics features."
+        ]
+      },
+      {
+        heading: "Industries Benefiting from Web Applications",
+        details: [
+          "E-commerce platforms for selling products and services online.",
+          "Healthcare applications for patient management and telemedicine.",
+          "Educational portals for online learning and course management.",
+          "Corporate tools for HR, finance, and project management.",
+          "Entertainment platforms for streaming and content delivery."
+        ]
+      }
+    ]
   },
   {
-    img:WebHost,
+    img: WebHost,
     svg: <BlockchainDevelopmenticon />,
     title: "Website Hosting",
-    desc: "Welcome to My Tech Professionals, your trusted partner for blockchain development solutions. We specialize in leveraging blockchain technology to build secure, transparent, and decentralized applications that transform industries and drive innovation. With our expertise in blockchain protocols and smart contract development, we help businesses harness the power of this revolutionary technology to optimize processes, enhance security, and foster trust.",
+    desc: "Website hosting is the backbone of any online presence, providing the necessary infrastructure to make websites accessible...",
+    slug: "website_hoisting",
+    detailSections: [
+      {
+        heading: "Website Hosting Plans and Features",
+        details: [
+          "Shared hosting for small websites and blogs.",
+          "VPS and dedicated hosting for high-traffic sites.",
+          "Cloud hosting for scalability and reliability.",
+          "Unlimited bandwidth and SSD storage.",
+          "Free SSL certificates and DDoS protection."
+        ]
+      },
+      {
+        heading: "Benefits of Choosing Professional Hosting",
+        details: [
+          "24/7 technical support to resolve issues promptly.",
+          "Automatic backups to secure your data.",
+          "High-speed servers for fast website performance.",
+          "Customizable plans to suit business needs.",
+          "Advanced security features to protect against cyber threats."
+        ]
+      }
+    ]
   },
   {
-    img:WebDesignandDevelop,
+    img: WebDesignandDevelop,
     svg: <WordPressDevelopmenticon />,
     title: "Web Designing and Development",
-    desc: "Welcome to My Tech Professionals, your trusted partner for WordPress development solutions. We specialize in harnessing the power of WordPress, the world's leading content management system (CMS), to create stunning and feature-rich websites. With our expertise in WordPress development, we help businesses of all sizes establish a robust online presence, engage their audience, and achieve their digital goals.",
-  },
-  // {
-  //   img:WebApp,
-  //   svg: <UiUxDesignicon />,
-  //   title: "UI/UX Design",
-  //   desc: "Welcome to My Tech Professionals, your trusted partner for exceptional UI/UX design solutions. We specialize in creating intuitive, visually stunning, and user-centric interfaces that elevate digital experiences. With our expertise in UI/UX design, we help businesses across various industries enhance their online presence, engage users, and drive conversions.",
-  // },
+    desc: "Web designing and development are crucial for creating a strong online presence...",
+    slug: "web_designing_and_development",
+    detailSections: [
+      {
+        heading: "Design and Development Services",
+        details: [
+          "Custom UI/UX design for engaging interfaces.",
+          "Responsive design for all devices and platforms.",
+          "SEO-optimized websites to rank higher in search engines.",
+          "Integration with third-party tools and APIs.",
+          "E-commerce development with secure payment gateways."
+        ]
+      },
+      {
+        heading: "Why Choose Us for Web Design and Development?",
+        details: [
+          "Experienced team of designers and developers.",
+          "Tailored solutions to match business goals.",
+          "Focus on performance, speed, and security.",
+          "Ongoing support and maintenance services.",
+          "Cutting-edge technology stack for innovative solutions."
+        ]
+      }
+    ]
+  }
 ];
+
+
 export const ourteam = [
   {
     img: Man,

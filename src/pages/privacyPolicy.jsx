@@ -7,7 +7,6 @@ const Privacypolicy = () => {
   
   return (
     <>
-    
         {/* <Hero title="Privacy Policy" /> */}
         <PricacyPolicyData />
       

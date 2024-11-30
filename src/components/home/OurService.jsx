@@ -1,13 +1,16 @@
 import React from "react";
 import { ourServiceData } from "../common/helper";
-import {  Link } from "react-router-dom";
+import {  Link, useNavigate } from "react-router-dom";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import Ourserviceimg from "../../assets/img/home/ourservice-img.png"
 
+
 const OurService = () => {
+
+  const router = useNavigate()
   const settings = {
     dots: true, // Show navigation dots
     infinite: true, // Infinite loop
@@ -46,7 +49,7 @@ const OurService = () => {
           <Slider {...settings}>
             {ourServiceData.map((item, index) => (
               <div key={index} className="px-3">
-                <div className="max-w-[364px] mx-auto rounded-[18px] transition duration-300 ease-in-out group hover:bg-[linear-gradient(222.96deg,#231E62_2.41%,#3671CA_99.1%)] animation bg-white pt-[27px] shadow-[0px_6px_29px_rgba(54,113,202,0.12)] w-full">
+                <div onClick={()=>router(`/services/${item.slug}`)} className="max-w-[364px] mx-auto rounded-[18px] transition duration-300 ease-in-out group hover:bg-[linear-gradient(222.96deg,#231E62_2.41%,#3671CA_99.1%)] animation bg-white pt-[27px] shadow-[0px_6px_29px_rgba(54,113,202,0.12)] w-full cursor-pointer">
                   <div className="mx-auto max-w-[207px] h-[208px] flex justify-end items-end">
                     {/* {item.svg} */}
                     <img src={item.img} className="w-fit"></img>

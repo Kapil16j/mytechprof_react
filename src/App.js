@@ -17,6 +17,7 @@ import WebMaintainence from "./pages/webmaintanance";
 import Sidebar from "./components/common/Sidebar";
 import { DownToUpLogo } from "./components/common/icon";
 import ScrollToTop from "./components/common/scrolltotop";
+import ServicesDetails from "./pages/servicesDetail";
 
 function App() {
   const [isSidebarOpen, setSidebarOpen] = useState(false);
@@ -49,6 +50,7 @@ function App() {
         <Route path="/terms&conditions" element={<TermsConditions />} />
         <Route path="/privacypolicy" element={<Privacypolicy />} />
         <Route path="/course/:category" element={<CourseDetails />} />
+        <Route path="/services/:category" element={<ServicesDetails />} />
         <Route path="/web-maintainence" element={<WebMaintainence />} />
         <Route path="*" element={<NotFound />} />
 
