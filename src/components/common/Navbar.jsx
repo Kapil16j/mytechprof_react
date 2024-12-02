@@ -3,6 +3,7 @@ import { useNavigate, Link } from "react-router-dom";
 import Navlogo from "../../assets/img/logo/navlogo.png";
 import { homeRoute, aboutUsRoute, servicesRoute, contactUsRoute } from "./base";
 import Dropdownimg from "../../assets/img/home/down-arrow.png"
+import Nextpng from "../../assets/img/home/next.png"
 
 const Navbar = ({ setSidebarOpen }) => {
   const router = useNavigate();
@@ -23,24 +24,43 @@ const Navbar = ({ setSidebarOpen }) => {
       url: "#",
       dropdown: true,
       items: [
-        { title: "Integrated University Management System (IUMS)", url: "#" },
-        { title: "Onscreen Evaluation Based Examination System", url: "#" },
-        { title: "eVetConnect", url: "#" },
-        { title: "Digital Document Circulation (DDC)", url: "#" },
-        { title: "Transport Management System (TMS)", url: "#" },
-        { title: "Public Distribution System (PDS)", url: "#" },
-        { title: "Rural Empowerment Solution (RES)", url: "#" },
-        { title: "Urban Development Solution (UDS)", url: "#" },
-        { title: "State Mining & Geology Department Solution", url: "#" },
-        { title: "State Forest Corporations Solution (SFCS)", url: "#" },
-        { title: "Defence Solution (EDS)", url: "#" },
-        { title: "Museum and Art Gallery Solution (MAGS)", url: "#" },
-        { title: "State Development Authorities Solution (SDAS)", url: "#" },
-        { title: "eNFINITY CRM", url: "#" },
-        { title: "eDRMS (Document Repository Management System)", url: "#" },
-        { title: "eNGAGE- (The Digital Workspace for eCollaboration)", url: "#" },
-        { title: "Hospedien", url: "#" },
-        { title: "e-Learning Suite (eLMS)", url: "#" },
+        {
+          title: "EINTITY (ERP, SCM and CRM Suite of Enterprise Expedien Products)",
+          url: "#",
+          items: [
+            { title: "Integrated University Management System (IUMS)", url: "#" },
+            { title: "Onscreen Evaluation Based Examination System", url: "#" },
+            { title: "eVetConnect", url: "#" },
+            { title: "Digital Document Circulation (DDC)", url: "#" },
+            { title: "Transport Management System (TMS)", url: "#" },
+            { title: "Public Distribution System (PDS)", url: "#" },
+            { title: "Rural Empowerment Solution (RES)", url: "#" },
+            { title: "Urban Development Solution (UDS)", url: "#" },
+            { title: "State Mining & Geology Department Solution", url: "#" },
+            { title: "State Forest Corporations Solution (SFCS)", url: "#" },
+            { title: "Defence Solution (EDS)", url: "#" },
+            { title: "Museum and Art Gallery Solution (MAGS)", url: "#" },
+            { title: "State Development Authorities Solution (SDAS)", url: "#" },
+            { title: "eNFINITY CRM", url: "#" },
+            { title: "eDRMS (Document Repository Management System)", url: "#" },
+            { title: "eNGAGE- (The Digital Workspace for eCollaboration)", url: "#" },
+            { title: "Hospedien", url: "#" },
+            { title: "e-Learning Suite (eLMS)", url: "#" },
+          ],
+        },
+        {
+          title: "IT & Infrastructure Products",
+          url: "#",
+          items: [
+            { title: "Biometric Smart Card Solution (BSCS)", url: "#" },
+            { title: "Data Digitization & e-Book Management", url: "#" },
+            { title: "Internet Management & Security Options (IMSO)", url: "#" },
+            { title: "RFID Based Library Automation (LARFID)", url: "#" },
+            { title: "Digital Information KIOSK (DINFO)", url: "#" },
+            { title: "Smart & Virtual Class (EZZY)", url: "#" },
+            { title: "Smart Attendance System (ACTA)", url: "#" },
+          ],
+        },
       ],
     },
     {
@@ -48,10 +68,33 @@ const Navbar = ({ setSidebarOpen }) => {
       url: "#",
       dropdown: true,
       items: [
-        { title: "eNFINITY CRM", url: "#" },
-        { title: "Defence Solutions (EDS)", url: "#" },
-        { title: "eDRMS", url: "#" },
-        { title: "Smart Attendance System (ACTA)", url: "#" },
+      
+        {
+          title: "Solutions by Business Function",
+          url: "#",
+          items: [
+            { title: "Finance and Accounting", url: "#" },
+            { title: "Human Resource Management", url: "#" },
+            { title: "Purchase Management", url: "#" },
+            { title: "Operations Management", url: "#" },
+            { title: "Asset & Inventory Management", url: "#" },
+            { title: "Knowledge Management", url: "#" },
+            { title: "CRM - Customer Service, Call Center & Sales Automation", url: "#" },
+            { title: "Security & Surveillance", url: "#" },
+            { title: "BI and Data Warehousing", url: "#" },
+            { title: "Geo-Spatial Services & Solutions", url: "#" },
+          ],
+        },
+        {
+          title: "Microsoft Dynamics Business Solution",
+          url: "#",
+          items: [
+            { title: "Overview", url: "#" },
+            { title: "Our Offerings", url: "#" },
+            { title: "Product Capabilities", url: "#" },
+            { title: "Industry Specific", url: "#" },
+          ],
+        },
       ],
     },
     {
@@ -63,6 +106,7 @@ const Navbar = ({ setSidebarOpen }) => {
       url: contactUsRoute,
     },
   ];
+
 
   const toggleDropdown = (dropdownName) => {
     if (activeDropdown === dropdownName) {
@@ -105,7 +149,7 @@ const Navbar = ({ setSidebarOpen }) => {
           <ul className="hidden lg:flex items-center space-x-4 pr-4">
             {navlinks.map((obj, index) =>
               obj.dropdown ? (
-                <li key={index}  ref={dropdownRef}>
+                <li key={index} ref={dropdownRef}>
                   <div className="flex justify-center items-center">
                     <p
                       onClick={() => toggleDropdown(obj.title)}
@@ -118,21 +162,36 @@ const Navbar = ({ setSidebarOpen }) => {
 
 
                   {activeDropdown === obj.title && (
-                    <div className="absolute left-[30%] mt-2 text-white shadow-lg rounded-md w-[800px] bg-[linear-gradient(222.96deg,#231E62_2.41%,#3671CA_99.1%)] max-h-64 overflow-y-auto">
+                    <div className="absolute left-[30%] mt-2 text-white shadow-lg rounded-md w-[800px] bg-[linear-gradient(222.96deg,#231E62_2.41%,#3671CA_99.1%)] max-h-64 h-64 overflow-y-auto">
                       <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-4">
                         {obj.items.map((item, i) => (
-                          <li key={i} className="break-words">
-                            <Link
-                              to={item.url}
-                              className="block px-4 py-2 text-white hover:text-black text-opacity-80 hover:bg-gray-100"
-                            >
-                              {item.title}
-                            </Link>
-                          </li>
+                          <div key={i} className="flex flex-col">
+                            <div className="flex items-center">
+                              <img src={Nextpng} className="w-4 h-4" alt="Dropdown" />
+                              <h1 className="text-white font-semibold px-4 py-2">{item.title}</h1>
+                            </div>
+
+                            {/* Loop through sub-items and create a new column for each */}
+                            {item.items && item.items.length > 0 && (
+                              <ul className="flex flex-col pl-4">
+                                {item.items.map((data, index) => (
+                                  <li key={index} className="p-2">
+                                    <Link
+                                      to={data.url}
+                                      className="block text-white hover:text-black text-opacity-80 hover:bg-gray-100"
+                                    >
+                                      {data.title}
+                                    </Link>
+                                  </li>
+                                ))}
+                              </ul>
+                            )}
+                          </div>
                         ))}
                       </ul>
                     </div>
                   )}
+
 
                 </li>
               ) : (
@@ -151,7 +210,7 @@ const Navbar = ({ setSidebarOpen }) => {
           </ul>
 
           <Link to="/contact-us">
-            <button   className="text-[16px]  shadow-[0px_2px_14px_rgba(60,124,221,0.38)] font-semibold text-white  w-[143px] sm:w-[173px] bg-[#231E62] h-[49px] rounded-[2px]">
+            <button className="text-[16px]  shadow-[0px_2px_14px_rgba(60,124,221,0.38)] font-semibold text-white  w-[143px] sm:w-[173px] bg-[#231E62] h-[49px] rounded-[2px]">
               Contact us
             </button>
           </Link>
