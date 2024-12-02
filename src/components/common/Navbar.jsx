@@ -171,7 +171,7 @@ const Navbar = ({ setSidebarOpen }) => {
           />
         </Link>
 
-        <div className="flex items-center">
+        <div className="flex items-center ">
           <ul className="hidden lg:flex items-center space-x-4 pr-4">
             {navlinks.map((obj, index) =>
               obj.dropdown ? (
@@ -179,7 +179,8 @@ const Navbar = ({ setSidebarOpen }) => {
                   <div className="flex justify-center items-center">
                     <p
                       onClick={() => toggleDropdown(obj.title)}
-                      className="text-black font-medium text-opacity-70 hover:text-primary hover:text-opacity-100 font-medium text-base transition-all duration-200 ease-in cursor-pointer"
+                      className={`text-black font-medium text-opacity-70 hover:text-primary hover:text-opacity-100 font-medium text-base transition-all duration-200 ease-in cursor-pointer 
+                        ${activeDropdown === obj.title ? 'font-bold-600 underline' : ''}`}
                     >
                       {obj.title}
                     </p>
@@ -188,7 +189,7 @@ const Navbar = ({ setSidebarOpen }) => {
 
 
                   {activeDropdown === obj.title && (
-                    <div className="absolute left-[30%] mt-2 text-white shadow-lg rounded-md w-[800px] bg-[linear-gradient(222.96deg,#231E62_2.41%,#3671CA_99.1%)] max-h-64 h-64 overflow-y-auto">
+                    <div className="absolute left-[30%] mt-2 text-white shadow-lg rounded-md w-[800px] bg-[linear-gradient(222.96deg,#231E62_2.41%,#3671CA_99.1%)] max-h-64 h-64 overflow-y-auto z-50">
                       <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-4">
                         {obj.items.map((item, i) => (
                           <div key={i} className="flex flex-col">
