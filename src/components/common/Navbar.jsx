@@ -68,7 +68,7 @@ const Navbar = ({ setSidebarOpen }) => {
       url: "#",
       dropdown: true,
       items: [
-      
+
         {
           title: "Solutions by Business Function",
           url: "#",
@@ -100,6 +100,32 @@ const Navbar = ({ setSidebarOpen }) => {
     {
       title: "SERVICES",
       url: servicesRoute,
+      url: "#",
+      dropdown: true,
+      items: [
+
+        {
+          title: "",
+          url: "#",
+          items: [
+            { title: "GPS Based Vehicle Tracking", url: "#" },
+            { title: "Networking and Wi-Fi", url: "#" },
+            { title: "Integrated Communication System", url: "#" },
+            { title: "Cloud Services", url: "#" },
+          ],
+        },
+        {
+          title: "",
+          url: "#",
+          items: [
+            { title: "Expedien Consulting", url: "#" },
+            { title: "Manpower - Technical Resources Offshore/Onsite", url: "#" },
+            { title: "Digitization Services", url: "#" },
+            { title: "Call Center Establishment", url: "#" },
+
+          ],
+        },
+      ],
     },
     {
       title: "CLIENTS",
@@ -166,10 +192,12 @@ const Navbar = ({ setSidebarOpen }) => {
                       <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-4">
                         {obj.items.map((item, i) => (
                           <div key={i} className="flex flex-col">
-                            <div className="flex items-center">
-                              <img src={Nextpng} className="w-4 h-4" alt="Dropdown" />
-                              <h1 className="text-white font-semibold px-4 py-2">{item.title}</h1>
-                            </div>
+                            {item.title != "" &&
+                              <div className="flex items-center">
+                                <img src={Nextpng} className="w-4 h-4" alt="Dropdown" />
+                                <h1 className="text-white font-semibold px-4 py-2">{item.title}</h1>
+                              </div>
+                            }
 
                             {/* Loop through sub-items and create a new column for each */}
                             {item.items && item.items.length > 0 && (
