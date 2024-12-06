@@ -1,6 +1,6 @@
 import {  Link } from "react-router-dom";
 import React from "react";
-import { CompanyName,CompanyPhone,CompanyEmail, CompanyWebsite } from "./base";
+import { CompanyName,CompanyPhone,CompanyEmail, CompanyWebsite, CompanyPhone1 } from "./base";
 
 
 const GetTouchWithUs = () => {
@@ -24,7 +24,7 @@ const GetTouchWithUs = () => {
             <Link to="tel:9999999999">
               <span className="text-[#3671CA] text-[20px] hover:text-black hover:scale-125">
                 {" "}
-                {CompanyPhone}
+                {CompanyPhone1}
               </span>
             </Link>{" "}
             or email us at{" "}
