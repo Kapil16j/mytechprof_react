@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import Navlogo from "../../assets/img/logo/navlogo.png";
-import { homeRoute, aboutUsRoute, servicesRoute, contactUsRoute } from "./base";
+import { homeRoute, aboutUsRoute, servicesRoute, contactUsRoute, clientsroute } from "./base";
 import Dropdownimg from "../../assets/img/home/down-arrow.png"
 import Nextpng from "../../assets/img/home/next.png"
 
@@ -28,37 +28,37 @@ const Navbar = ({ setSidebarOpen }) => {
           title: "EINTITY (ERP, SCM and CRM Suite of Enterprise Expedien Products)",
           url: "#",
           items: [
-            { title: "Integrated University Management System (IUMS)", url: "#" },
-            { title: "Onscreen Evaluation Based Examination System", url: "#" },
-            { title: "eVetConnect", url: "#" },
-            { title: "Digital Document Circulation (DDC)", url: "#" },
-            { title: "Transport Management System (TMS)", url: "#" },
-            { title: "Public Distribution System (PDS)", url: "#" },
-            { title: "Rural Empowerment Solution (RES)", url: "#" },
-            { title: "Urban Development Solution (UDS)", url: "#" },
-            { title: "State Mining & Geology Department Solution", url: "#" },
-            { title: "State Forest Corporations Solution (SFCS)", url: "#" },
-            { title: "Defence Solution (EDS)", url: "#" },
-            { title: "Museum and Art Gallery Solution (MAGS)", url: "#" },
-            { title: "State Development Authorities Solution (SDAS)", url: "#" },
-            { title: "eNFINITY CRM", url: "#" },
-            { title: "eDRMS (Document Repository Management System)", url: "#" },
-            { title: "eNGAGE- (The Digital Workspace for eCollaboration)", url: "#" },
-            { title: "Hospedien", url: "#" },
-            { title: "e-Learning Suite (eLMS)", url: "#" },
+            { title: "Integrated University Management System (IUMS)", url: "/products/iums" },
+            { title: "Onscreen Evaluation Based Examination System", url: "/products/onscreen_evaluation_system" },
+            { title: "eVetConnect", url: "/products/evetconnect" },
+            { title: "Digital Document Circulation (DDC)", url: "/products/ddc" },
+            { title: "Transport Management System (TMS)", url: "/products/tms" },
+            { title: "Public Distribution System (PDS)", url: "/products/pds" },
+            { title: "Rural Empowerment Solution (RES)", url: "/products/res" },
+            { title: "Urban Development Solution (UDS)", url: "/products/uds" },
+            { title: "State Mining & Geology Department Solution", url: "/products/mining_geology" },
+            { title: "State Forest Corporations Solution (SFCS)", url: "/products/sfcs" },
+            { title: "Defence Solution (EDS)", url: "/products/eds" },
+            { title: "Museum and Art Gallery Solution (MAGS)", url: "/products/mags" },
+            { title: "State Development Authorities Solution (SDAS)", url: "/products/sdas" },
+            { title: "eNFINITY CRM", url: "/products/enfinity_crm" },
+            { title: "eDRMS (Document Repository Management System)", url: "/products/edrms" },
+            { title: "eNGAGE- (The Digital Workspace for eCollaboration)", url: "/products/engage" },
+            { title: "Hospedien", url: "/products/hospedien" },
+            { title: "e-Learning Suite (eLMS)", url: "/products/elms" },
           ],
         },
         {
           title: "IT & Infrastructure Products",
           url: "#",
           items: [
-            { title: "Biometric Smart Card Solution (BSCS)", url: "#" },
-            { title: "Data Digitization & e-Book Management", url: "#" },
-            { title: "Internet Management & Security Options (IMSO)", url: "#" },
-            { title: "RFID Based Library Automation (LARFID)", url: "#" },
-            { title: "Digital Information KIOSK (DINFO)", url: "#" },
-            { title: "Smart & Virtual Class (EZZY)", url: "#" },
-            { title: "Smart Attendance System (ACTA)", url: "#" },
+            { title: "Biometric Smart Card Solution (BSCS)", url: "/products/bscs" },
+            { title: "Data Digitization & e-Book Management", url: "/products/data_digitization_ebooks" },
+            { title: "Internet Management & Security Options (IMSO)", url: "/products/imso" },
+            { title: "RFID Based Library Automation (LARFID)", url: "/products/larfid" },
+            { title: "Digital Information KIOSK (DINFO)", url: "/products/dinfo" },
+            { title: "Smart & Virtual Class (EZZY)", url: "/products/ezzysmart_class" },
+            { title: "Smart Attendance System (ACTA)", url: "/products/acta" },
           ],
         },
       ],
@@ -73,17 +73,19 @@ const Navbar = ({ setSidebarOpen }) => {
           title: "Solutions by Business Function",
           url: "#",
           items: [
-            { title: "Finance and Accounting", url: "#" },
-            { title: "Human Resource Management", url: "#" },
-            { title: "Purchase Management", url: "#" },
-            { title: "Operations Management", url: "#" },
-            { title: "Asset & Inventory Management", url: "#" },
-            { title: "Knowledge Management", url: "#" },
-            { title: "CRM - Customer Service, Call Center & Sales Automation", url: "#" },
-            { title: "Security & Surveillance", url: "#" },
-            { title: "BI and Data Warehousing", url: "#" },
-            { title: "Geo-Spatial Services & Solutions", url: "#" },
+            { title: "Finance and Accounting", url: "/solutions/finance-and-accounting" },
+            { title: "Human Resource Management", url: "/solutions/human-resource-management" },
+            { title: "Purchase Management", url: "/solutions/purchase-management" },
+            { title: "Operations Management", url: "/solutions/operations-management" },
+            { title: "Asset & Inventory Management", url: "/solutions/asset-inventory-management" },
+            { title: "Knowledge Management", url: "/solutions/knowledge-management" },
+            { title: "CRM - Customer Service, Call Center & Sales Automation", url: "/solutions/crm-customer-service-call-center-sales-automation" },
+            { title: "Security & Surveillance", url: "/solutions/security-surveillance" },
+            { title: "BI and Data Warehousing", url: "/solutions/bi-data-warehousing" },
+            { title: "Geo-Spatial Services & Solutions", url: "/solutions/geo-spatial-services-solutions" },
+            { title: "Microsoft Dynamics Business Solution", url: "/solutions/microsoft-dynamics-business-solution" },
           ],
+          
         },
         {
           title: "Microsoft Dynamics Business Solution",
@@ -103,35 +105,37 @@ const Navbar = ({ setSidebarOpen }) => {
       url: "#",
       dropdown: true,
       items: [
-
         {
-          title: "",
+          title: "Email & Server Solutions",
           url: "#",
           items: [
-            { title: "GPS Based Vehicle Tracking", url: "#" },
-            { title: "Networking and Wi-Fi", url: "#" },
-            { title: "Integrated Communication System", url: "#" },
-            { title: "Cloud Services", url: "#" },
+            { title: "Integrated Online Management System", url: "/services/ioms" },
+            { title: "Email Hosting", url: "/services/email_hosting" },
+            { title: "Linux Mail Server", url: "/services/linux_mail_server" },
           ],
         },
         {
-          title: "",
+          title: "Web Services",
           url: "#",
           items: [
-            { title: "Expedien Consulting", url: "#" },
-            { title: "Manpower - Technical Resources Offshore/Onsite", url: "#" },
-            { title: "Digitization Services", url: "#" },
-            { title: "Call Center Establishment", url: "#" },
-
+            { title: "Web Application", url: "/services/web_application" },
+            { title: "Website Hosting", url: "/services/website_hoisting" },
+            { title: "Web Designing and Development", url: "/services/web_designing_and_development" },
           ],
         },
-      ],
+      ]
+      
     },
     {
       title: "CLIENTS",
-      url: contactUsRoute,
+      url: clientsroute,
     },
   ];
+
+
+
+  
+
 
 
   const toggleDropdown = (dropdownName) => {
@@ -160,6 +164,13 @@ const Navbar = ({ setSidebarOpen }) => {
     };
   }, []);
 
+
+  const handlenavigate = async (url) => {
+    await router(url)
+    setActiveDropdown(null);
+
+  }
+
   return (
     <nav className="absolute top-0 left-0 w-full z-10">
       <div className="flex items-center justify-between py-4 max-w-[1140px] mx-auto px-3 xl:px-0">
@@ -175,7 +186,7 @@ const Navbar = ({ setSidebarOpen }) => {
           <ul className="hidden lg:flex items-center space-x-4 pr-4">
             {navlinks.map((obj, index) =>
               obj.dropdown ? (
-                <li key={index} ref={dropdownRef}>
+                <li key={index} >
                   <div className="flex justify-center items-center">
                     <p
                       onClick={() => toggleDropdown(obj.title)}
@@ -189,7 +200,7 @@ const Navbar = ({ setSidebarOpen }) => {
 
 
                   {activeDropdown === obj.title && (
-                    <div className="absolute left-[30%] mt-2 text-white shadow-lg rounded-md w-[800px] bg-[linear-gradient(222.96deg,#231E62_2.41%,#3671CA_99.1%)] max-h-64 h-64 overflow-y-auto z-50">
+                    <div ref={dropdownRef} className="absolute left-[30%] mt-2 text-white shadow-lg rounded-md w-[800px] bg-[linear-gradient(222.96deg,#231E62_2.41%,#3671CA_99.1%)] max-h-64 h-64 overflow-y-auto z-50">
                       <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-4">
                         {obj.items.map((item, i) => (
                           <div key={i} className="flex flex-col">
@@ -205,12 +216,13 @@ const Navbar = ({ setSidebarOpen }) => {
                               <ul className="flex flex-col pl-4">
                                 {item.items.map((data, index) => (
                                   <li key={index} className="p-1">
-                                    <Link
-                                      to={data.url}
-                                      className="block text-white hover:text-black text-opacity-80 hover:bg-gray-100"
+                                    <div onClick={()=>handlenavigate(data.url)}
+                                      // to={data.url}
+                                      className="block text-white hover:text-black text-opacity-80 hover:bg-gray-100 hover:rounded-lg hover:p-1 cursor-pointer"
+
                                     >
                                       {data.title}
-                                    </Link>
+                                    </div>
                                   </li>
                                 ))}
                               </ul>

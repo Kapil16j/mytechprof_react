@@ -55,6 +55,41 @@ import WebHost from "../../assets/img/home/websitehost.jpg"
 import WebDesignandDevelop from "../../assets/img/home/webdesignanddev.jpg"
 import Iomsimg from "../../assets/img/home/iomsimg.jpg"
 
+// productdata iamges 
+
+import IUMSimg from "../../assets/img/products/iums.jpg"
+import Ddcimg from "../../assets/img/products/ddc.jpg"
+import Evconnectimg from "../../assets/img/products/evconnect.jpg"
+import Onscreenimg from "../../assets/img/products/onscreen.jpg"
+import Pdsimg from "../../assets/img/products/pds.jpg"
+import Ruralimg from "../../assets/img/products/rural.jpg"
+import Transportimg from "../../assets/img/products/transport.jpg"
+
+import Urbanimg from "../../assets/img/products/urban.jpg"
+
+import Sfcsimg from "../../assets/img/products/sfcs.jpg"
+import Stateimg from "../../assets/img/products/state.jpg"
+import Biometricimg from "../../assets/img/products/biometric.jpg"
+
+// solutions image 
+
+import Asstesimg from "../../assets/img/solutions/assests.jpg"
+import Biimg from "../../assets/img/solutions/bi.jpg"
+import Crmimg from "../../assets/img/solutions/crm.jpg"
+import Financeimg from "../../assets/img/solutions/finance.jpg"
+import Geoimg from "../../assets/img/solutions/geo.jpg"
+import Humanimg from "../../assets/img/solutions/human.jpg"
+import Knowlegeimg from "../../assets/img/solutions/knowlege.jpg"
+import Microsoftimg from "../../assets/img/solutions/microsoft.jpg"
+import Operationimg from "../../assets/img/solutions/operation.webp"
+import Purchaseimg from "../../assets/img/solutions/purchase.jpg"
+import Securityimg from "../../assets/img/solutions/security.jpg"
+
+
+
+
+
+
 export const allcourselist = [
   {
     slug: "frontend",
@@ -837,6 +872,534 @@ export const ourServiceData = [
     ]
   }
 ];
+
+
+export const productData = [
+  {
+    title: "Integrated University Management System (IUMS)",
+    url: "#",
+    desc: "A comprehensive solution for managing university operations including student data, courses, grades, and communication.",
+    slug: "iums",
+    img: IUMSimg,
+    detailSections: [
+      {
+        heading: "Core Features of IUMS",
+        details: [
+          "Centralized student and course management.",
+          "Automated grading and attendance.",
+          "Integrated communication tools for faculty and students.",
+          "Customizable dashboards for administrators.",
+          "Comprehensive analytics and reporting."
+        ]
+      },
+      {
+        heading: "Benefits of IUMS",
+        details: [
+          "Streamlined academic and administrative processes.",
+          "Real-time updates and data accuracy.",
+          "Improved collaboration among departments.",
+          "Secure data management.",
+          "Scalable to accommodate growing institutions."
+        ]
+      }
+    ]
+  },
+  {
+    title: "Onscreen Evaluation Based Examination System",
+    url: "#",
+    desc: "An online platform for conducting and evaluating exams with automated grading and real-time feedback.",
+    slug: "onscreen_evaluation_system",
+    img: Onscreenimg,
+    detailSections: [
+      {
+        heading: "Key Features of the Evaluation System",
+        details: [
+          "Automated exam grading and instant feedback.",
+          "Support for multiple question formats (MCQ, short answer, etc.).",
+          "Secure and customizable exam settings.",
+          "Integration with learning management systems.",
+          "Real-time reporting and analytics."
+        ]
+      },
+      {
+        heading: "Benefits of the Evaluation System",
+        details: [
+          "Reduces manual grading efforts.",
+          "Ensures fairness and transparency.",
+          "Facilitates remote exam management.",
+          "Quickly identifies areas for student improvement.",
+          "Scales for large numbers of students."
+        ]
+      }
+    ]
+  },
+  {
+    title: "eVetConnect",
+    url: "#",
+    desc: "A platform designed for seamless communication and coordination in veterinary care, connecting practitioners and patients.",
+    slug: "evetconnect",
+    img: Evconnectimg,
+    detailSections: [
+      {
+        heading: "Core Features of eVetConnect",
+        details: [
+          "Real-time communication with patients and staff.",
+          "Appointment scheduling and reminders.",
+          "Electronic medical records for animals.",
+          "Integrated telemedicine features for remote consultations.",
+          "Detailed reports and analytics on patient care."
+        ]
+      },
+      {
+        heading: "Benefits of eVetConnect",
+        details: [
+          "Improved patient care with centralized records.",
+          "Efficient scheduling and resource management.",
+          "Enhanced communication between practitioners and clients.",
+          "Scalable for large veterinary practices.",
+          "Secure data storage with compliance to healthcare standards."
+        ]
+      }
+    ]
+  },
+  {
+    title: "Digital Document Circulation (DDC)",
+    url: "#",
+    desc: "A digital solution for managing, circulating, and archiving documents securely within an organization.",
+    slug: "ddc",
+    img: Ddcimg,
+    detailSections: [
+      {
+        heading: "Key Features of DDC",
+        details: [
+          "Secure document circulation across departments.",
+          "Automated document approval workflows.",
+          "Version control and tracking.",
+          "Audit trails for document access and modification.",
+          "Cloud-based storage for easy access."
+        ]
+      },
+      {
+        heading: "Benefits of DDC",
+        details: [
+          "Enhanced document security and privacy.",
+          "Reduced manual paperwork and errors.",
+          "Streamlined internal processes.",
+          "Improved collaboration and efficiency.",
+          "Compliance with legal and regulatory requirements."
+        ]
+      }
+    ]
+  },
+  {
+    title: "Transport Management System (TMS)",
+    url: "#",
+    desc: "A comprehensive system to manage and optimize transportation operations, from scheduling to route planning and tracking.",
+    slug: "tms",
+    img: Transportimg,
+    detailSections: [
+      {
+        heading: "Key Features of TMS",
+        details: [
+          "Real-time vehicle tracking and fleet management.",
+          "Route optimization for cost and time savings.",
+          "Scheduling and dispatching of transport services.",
+          "Inventory and delivery management.",
+          "Detailed reports and analytics."
+        ]
+      },
+      {
+        heading: "Benefits of TMS",
+        details: [
+          "Improved efficiency and reduced operational costs.",
+          "Real-time monitoring and performance tracking.",
+          "Enhanced customer service with timely deliveries.",
+          "Increased safety and compliance with regulations.",
+          "Scalability to support growing transportation needs."
+        ]
+      }
+    ]
+  },
+  {
+    title: "Public Distribution System (PDS)",
+    url: "#",
+    desc: "A solution for managing the distribution of food and essential goods to the public in an organized and transparent manner.",
+    slug: "pds",
+    img: Pdsimg,
+    detailSections: [
+      {
+        heading: "Core Features of PDS",
+        details: [
+          "Real-time monitoring of distribution processes.",
+          "Inventory management for food and essential goods.",
+          "Secure and transparent beneficiary registration.",
+          "Automated distribution and tracking of goods.",
+          "Comprehensive reporting and data analytics."
+        ]
+      },
+      {
+        heading: "Benefits of PDS",
+        details: [
+          "Ensures fair and equitable distribution of goods.",
+          "Minimizes fraud and distribution inefficiencies.",
+          "Improved transparency and accountability.",
+          "Optimized inventory management.",
+          "Easier access to essential goods for beneficiaries."
+        ]
+      }
+    ]
+  },
+  {
+    title: "Rural Empowerment Solution (RES)",
+    url: "#",
+    desc: "A platform designed to empower rural communities through digital solutions, providing access to essential services and information.",
+    slug: "res",
+    img: Ruralimg,
+    detailSections: [
+      {
+        heading: "Key Features of RES",
+        details: [
+          "Access to government schemes and services.",
+          "Education and skill development resources.",
+          "Health and wellness information.",
+          "Connectivity for rural areas through mobile platforms.",
+          "Community building and support networks."
+        ]
+      },
+      {
+        heading: "Benefits of RES",
+        details: [
+          "Promotes economic development in rural areas.",
+          "Enhances access to education and healthcare.",
+          "Reduces rural-urban divide.",
+          "Empowers rural communities with digital tools.",
+          "Improves government service delivery to remote areas."
+        ]
+      }
+    ]
+  },
+  {
+    title: "Urban Development Solution (UDS)",
+    url: "#",
+    desc: "A solution for managing urban infrastructure and development, ensuring smart city initiatives and sustainable growth.",
+    slug: "uds",
+    img: Urbanimg,
+    detailSections: [
+      {
+        heading: "Core Features of UDS",
+        details: [
+          "Smart city planning and development.",
+          "Urban infrastructure management (roads, utilities, etc.).",
+          "Sustainable energy and waste management solutions.",
+          "Traffic and public transport optimization.",
+          "Data-driven decision-making with real-time analytics."
+        ]
+      },
+      {
+        heading: "Benefits of UDS",
+        details: [
+          "Improves urban infrastructure and quality of life.",
+          "Fosters sustainable growth and environmental protection.",
+          "Enhances mobility and accessibility in cities.",
+          "Boosts economic development through smart technologies.",
+          "Promotes better governance and citizen engagement."
+        ]
+      }
+    ]
+  },
+  {
+    title: "State Mining & Geology Department Solution",
+    url: "#",
+    desc: "A specialized solution for managing mining operations and geological data, ensuring compliance and sustainability.",
+    slug: "mining_geology",
+    img: Stateimg,
+    detailSections: [
+      {
+        heading: "Key Features of Mining & Geology Solution",
+        details: [
+          "Mining operations and resource management.",
+          "Geological survey and data management.",
+          "Compliance monitoring and reporting.",
+          "Sustainability and environmental impact analysis.",
+          "Integrated mapping and GIS tools."
+        ]
+      },
+      {
+        heading: "Benefits of the Mining & Geology Solution",
+        details: [
+          "Ensures legal and regulatory compliance.",
+          "Optimizes resource extraction and usage.",
+          "Minimizes environmental impact and risks.",
+          "Enhances reporting and decision-making.",
+          "Supports long-term sustainability in mining operations."
+        ]
+      }
+    ]
+  },
+  {
+    title: "State Forest Corporations Solution (SFCS)",
+    url: "#",
+    desc: "A solution for managing forest resources and activities within state forest corporations, promoting sustainability and conservation.",
+    slug: "sfcs",
+    img: Sfcsimg,
+    detailSections: [
+      {
+        heading: "Core Features of SFCS",
+        details: [
+          "Forest resource management and tracking.",
+          "Sustainable logging and conservation practices.",
+          "Mapping and GIS tools for forest areas.",
+          "Wildlife monitoring and management.",
+          "Collaboration with environmental agencies."
+        ]
+      },
+      {
+        heading: "Benefits of SFCS",
+        details: [
+          "Supports sustainable forest management.",
+          "Enhances environmental conservation efforts.",
+          "Improves compliance with forest regulations.",
+          "Facilitates real-time monitoring of forest activities.",
+          "Promotes biodiversity and wildlife protection."
+        ]
+      }
+    ]
+  },
+  {
+    title: "Biometric Smart Card Solution (BSCS)",
+    url: "#",
+    desc: "A biometric-based smart card solution for secure access, identification, and transaction processing.",
+    slug: "bscs",
+    img: Biometricimg,
+    detailSections: [
+      {
+        heading: "Key Features of BSCS",
+        details: [
+          "Biometric authentication for secure access.",
+          "Smart card-based transaction processing.",
+          "Integration with identity management systems.",
+          "Real-time monitoring and reporting of activities.",
+          "High-level security protocols and encryption."
+        ]
+      },
+      {
+        heading: "Benefits of BSCS",
+        details: [
+          "Increased security and fraud prevention.",
+          "Streamlined access control and transaction systems.",
+          "Improved user convenience with biometric authentication.",
+          "Seamless integration with existing systems.",
+          "Scalable for large organizations or government systems."
+        ]
+      }
+    ]
+  }
+];
+
+
+export const solutionsData = [
+  {
+    slug: "finance-and-accounting",
+    category: "Finance and Accounting",
+    image: Financeimg,
+    title: "Finance and Accounting",
+    description: "In the fast-paced world of finance, businesses need reliable, efficient, and accurate financial tools to manage their day-to-day operations. Our Finance and Accounting solutions provide a comprehensive suite of services designed to help you automate and streamline your financial processes. From real-time financial monitoring to automated invoicing and tax reporting, our platform ensures that your accounting operations run smoothly. With features like budgeting tools and financial forecasting, you can easily predict and plan for the future, keeping your business on track and compliant. Whether you’re a small business or a large corporation, our solution adapts to meet your unique financial management needs, empowering your team to focus on growth rather than manual calculations and record-keeping.",
+    features: [
+      "Real-time financial monitoring",
+      "Automated invoicing and payments",
+      "Budgeting and financial forecasting",
+      "Tax calculation and reporting"
+    ],
+    otherDetails: {
+      industry: "Finance",
+      targetAudience: "CFOs, accountants, financial analysts",
+      relatedSolutions: ["ERP Solutions", "Audit and Compliance"]
+    }
+  },
+  {
+    slug: "human-resource-management",
+    category: "Human Resource Management",
+    image: Humanimg,
+    title: "Human Resource Management",
+    description: "Human Resource Management (HRM) is crucial to the success of any business. Efficient HRM systems ensure that employee relations, payroll, benefits, performance management, and compliance are handled seamlessly. Our HRM solution offers a complete toolset to help you manage the entire employee lifecycle from recruitment to retirement. With features like payroll automation, time tracking, and performance management, your HR team can focus on strategic initiatives while leaving the operational work to the system. The platform also offers robust compliance features, ensuring that you meet all legal and regulatory requirements. By automating many of the time-consuming tasks associated with HRM, businesses can improve productivity, reduce human error, and provide a better experience for both employees and managers.",
+    features: [
+      "Employee lifecycle management",
+      "Payroll automation",
+      "Time tracking and attendance",
+      "Performance and talent management"
+    ],
+    otherDetails: {
+      industry: "Human Resources",
+      targetAudience: "HR managers, HR administrators",
+      relatedSolutions: ["Payroll Solutions", "Employee Engagement"]
+    }
+  },
+  {
+    slug: "purchase-management",
+    category: "Purchase Management",
+    image: Purchaseimg,
+    title: "Purchase Management",
+    description: "Efficient purchase management is vital for maintaining a steady flow of goods and services, while minimizing costs and delays. Our Purchase Management solution is designed to simplify procurement processes, from supplier management to order processing. With features like automated order generation, purchase order approvals, and inventory tracking, our solution ensures that your business can maintain optimal stock levels while minimizing overstocking and stockouts. The system integrates seamlessly with your existing operations, providing visibility into every step of the procurement process. It also streamlines supplier communication, making it easier to build and maintain strong, reliable supplier relationships. By automating manual tasks and providing detailed analytics, businesses can improve their procurement efficiency, negotiate better deals, and reduce operational costs.",
+    features: [
+      "Supplier management and relationships",
+      "Automated order generation",
+      "Inventory tracking",
+      "Purchase order approvals"
+    ],
+    otherDetails: {
+      industry: "Retail, Manufacturing",
+      targetAudience: "Purchasing managers, supply chain coordinators",
+      relatedSolutions: ["Inventory Management", "Vendor Management"]
+    }
+  },
+  {
+    slug: "operations-management",
+    category: "Operations Management",
+    image: Operationimg,
+    title: "Operations Management",
+    description: "Operations management is at the core of any successful business, ensuring that processes run efficiently and resources are utilized optimally. Our Operations Management solution offers tools for process optimization, workflow automation, and performance analytics to help you manage your operations with precision and agility. Whether it’s tracking inventory, improving production timelines, or ensuring the best allocation of resources, our system provides real-time insights to make data-driven decisions. The platform also allows you to automate routine tasks, freeing up your team to focus on higher-value activities. By improving visibility across all operations, businesses can achieve better control over costs, increase productivity, and respond faster to changing demands.",
+    features: [
+      "Workflow automation",
+      "Performance analytics",
+      "Process improvement tools",
+      "Resource optimization"
+    ],
+    otherDetails: {
+      industry: "Manufacturing, Logistics",
+      targetAudience: "COOs, operations managers",
+      relatedSolutions: ["Supply Chain Management", "Workflow Automation"]
+    }
+  },
+  {
+    slug: "asset-inventory-management",
+    category: "Asset & Inventory Management",
+    image: Asstesimg,
+    title: "Asset & Inventory Management",
+    description: "Managing physical assets and inventory is a critical part of any business’s operations. Our Asset & Inventory Management solution helps businesses track, manage, and optimize their assets in real time. With capabilities like barcode and RFID integration, automated stock replenishment, and lifecycle management, businesses can ensure that their assets are always accounted for and utilized efficiently. The system provides full visibility into your asset and inventory levels, helping you avoid stockouts or overstocking. You can also track the entire lifecycle of assets, from acquisition to disposal. With detailed reporting features, businesses can analyze trends, forecast demand, and make more informed procurement decisions.",
+    features: [
+      "Real-time asset tracking",
+      "Barcode and RFID integration",
+      "Inventory replenishment",
+      "Asset lifecycle management"
+    ],
+    otherDetails: {
+      industry: "Retail, Manufacturing",
+      targetAudience: "Asset managers, inventory specialists",
+      relatedSolutions: ["Supply Chain Solutions", "Warehouse Management"]
+    }
+  },
+  {
+    slug: "knowledge-management",
+    category: "Knowledge Management",
+    image: Knowlegeimg,
+    title: "Knowledge Management",
+    description: "Knowledge is one of the most valuable assets a company can possess. Effective Knowledge Management (KM) systems help organizations capture, share, and leverage their knowledge to improve decision-making, innovation, and collaboration. Our KM solution provides tools to build comprehensive knowledge bases, facilitate collaborative workspaces, and manage documents efficiently. With powerful search and retrieval systems, employees can easily access the information they need, improving productivity and reducing redundancies. The system also supports content creation, organization, and sharing, enabling teams to work together more effectively. By consolidating your organization's intellectual assets in a centralized system, you can foster a culture of continuous learning and improvement.",
+    features: [
+      "Knowledge base creation",
+      "Collaborative platforms",
+      "Document management",
+      "Search and retrieval systems"
+    ],
+    otherDetails: {
+      industry: "Technology, Education",
+      targetAudience: "Knowledge managers, training departments",
+      relatedSolutions: ["Learning Management Systems", "Document Collaboration"]
+    }
+  },
+  {
+    slug: "crm-customer-service-call-center-sales-automation",
+    category: "CRM - Customer Service, Call Center & Sales Automation",
+    image: Crmimg,
+    title: "CRM - Customer Service, Call Center & Sales Automation",
+    description: "Managing customer relationships is crucial for business success, and our CRM solution is designed to automate and enhance your customer service and sales processes. With integrated call center functionality, your team can handle customer queries, track service requests, and automate repetitive tasks. The solution also includes tools for managing sales pipelines, automating lead generation, and tracking customer interactions, ensuring that no opportunity is missed. Additionally, it integrates with existing systems to provide a unified view of your customer data. By improving communication, streamlining service workflows, and providing real-time data insights, businesses can increase customer satisfaction, enhance retention rates, and drive sales growth.",
+    features: [
+      "Customer service automation",
+      "Sales pipeline management",
+      "Call center integration",
+      "Lead generation and tracking"
+    ],
+    otherDetails: {
+      industry: "Sales, Customer Support",
+      targetAudience: "Sales managers, customer service teams",
+      relatedSolutions: ["Salesforce Automation", "Customer Support Systems"]
+    }
+  },
+  {
+    slug: "security-surveillance",
+    category: "Security & Surveillance",
+    image: Securityimg,
+    title: "Security & Surveillance",
+    description: "In today’s world, security is a top priority for businesses, especially when it comes to protecting physical and intellectual assets. Our Security & Surveillance solution offers state-of-the-art technology for monitoring and safeguarding your business. The system includes real-time video surveillance, access control systems, and incident reporting tools that help you maintain a secure environment. It integrates with various devices, providing you with remote access to live feeds, alerts, and incident logs. With advanced features such as motion detection and facial recognition, you can ensure that your premises are constantly monitored. By utilizing our comprehensive security solutions, businesses can mitigate risks, prevent theft, and ensure the safety of employees and customers.",
+    features: [
+      "Real-time video monitoring",
+      "Access control systems",
+      "Incident reporting",
+      "Remote surveillance"
+    ],
+    otherDetails: {
+      industry: "Security, Retail, Manufacturing",
+      targetAudience: "Security managers, facility managers",
+      relatedSolutions: ["Surveillance Cameras", "Access Control Systems"]
+    }
+  },
+  {
+    slug: "bi-data-warehousing",
+    category: "BI and Data Warehousing",
+    image: Biimg,
+    title: "BI and Data Warehousing",
+    description: "Business Intelligence (BI) and Data Warehousing are key to making informed business decisions. Our BI and Data Warehousing solutions help businesses collect, analyze, and store vast amounts of data, transforming raw information into valuable insights. By integrating with various data sources, our platform consolidates data into a central repository, making it easier to access and analyze. With built-in reporting and analytics tools, businesses can generate actionable insights on demand. Whether it's tracking key performance indicators (KPIs), creating custom dashboards, or performing predictive analysis, our BI solution ensures that you have the data you need to make smarter decisions. By improving access to data and streamlining reporting, businesses can improve efficiency, uncover new opportunities, and optimize their operations.",
+    features: [
+      "Centralized data storage",
+      "Custom reporting and dashboards",
+      "Predictive analytics",
+      "Data integration with various sources"
+    ],
+    otherDetails: {
+      industry: "Technology, Finance",
+      targetAudience: "Data analysts, business intelligence teams",
+      relatedSolutions: ["Data Analytics", "Reporting Solutions"]
+    }
+  },
+  {
+    slug: "geo-spatial-services-solutions",
+    category: "Geo-Spatial Services & Solutions",
+    image: Geoimg,
+    title: "Geo-Spatial Services & Solutions",
+    description: "Geo-Spatial Services and Solutions provide businesses with powerful tools to analyze, visualize, and interpret geographical data. Our platform combines advanced mapping technologies, spatial analytics, and location-based data services to deliver insights that can drive smarter decision-making. Whether you're managing assets, planning logistics, or analyzing market trends, our geo-spatial solutions provide you with the tools to analyze and visualize geographic information in real-time. With interactive maps, geolocation features, and spatial data analysis, businesses can optimize routes, manage land assets, and improve service delivery.",
+    features: [
+      "Mapping and spatial analytics",
+      "Geolocation and tracking",
+      "Real-time data visualization",
+      "Location-based insights"
+    ],
+    otherDetails: {
+      industry: "Logistics, Real Estate, Agriculture",
+      targetAudience: "GIS analysts, logistics managers",
+      relatedSolutions: ["Supply Chain Optimization", "Fleet Management"]
+    }
+  },
+  {
+    slug: "microsoft-dynamics-business-solution",
+    category: "Microsoft Dynamics Business Solution",
+    image: Microsoftimg,
+    title: "Microsoft Dynamics Business Solution",
+    description: "Microsoft Dynamics offers an integrated suite of business applications designed to help organizations manage and automate their key business processes. Our Microsoft Dynamics solution helps businesses streamline their operations, from finance and operations to customer service and marketing. With seamless integration across your business functions, you can gain better visibility into your data, improve collaboration, and make more informed decisions. Whether you're using Dynamics 365 for Finance, Sales, Marketing, or Customer Service, our solution enables businesses to improve efficiency, increase customer satisfaction, and drive growth.",
+    features: [
+      "Finance and operations management",
+      "Sales and marketing automation",
+      "Customer service integration",
+      "Real-time analytics and reporting"
+    ],
+    otherDetails: {
+      industry: "Enterprise, Technology",
+      targetAudience: "CIOs, IT administrators",
+      relatedSolutions: ["ERP Solutions", "CRM Systems"]
+    }
+  }
+];
+
+
+
 
 
 export const ourteam = [

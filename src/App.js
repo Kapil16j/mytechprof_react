@@ -18,6 +18,10 @@ import Sidebar from "./components/common/Sidebar";
 import { DownToUpLogo } from "./components/common/icon";
 import ScrollToTop from "./components/common/scrolltotop";
 import ServicesDetails from "./pages/servicesDetail";
+import ProductDetails from "./pages/productDetail";
+import SolutionPage from "./pages/solution";
+import SolutionDetailPage from "./pages/solutiondetails";
+import ClientsPage from "./pages/clients";
 
 function App() {
   const [isSidebarOpen, setSidebarOpen] = useState(false);
@@ -51,7 +55,11 @@ function App() {
         <Route path="/privacypolicy" element={<Privacypolicy />} />
         <Route path="/course/:category" element={<CourseDetails />} />
         <Route path="/services/:category" element={<ServicesDetails />} />
+        <Route path="/products/:category" element={<ProductDetails />} />
+        <Route path="/solutions" element={<SolutionPage />} />
+        <Route path="/solutions/:category" element={<SolutionDetailPage />} />
         <Route path="/web-maintainence" element={<WebMaintainence />} />
+        <Route path="/clients" element={<ClientsPage />} />
         <Route path="*" element={<NotFound />} />
 
       </Routes>

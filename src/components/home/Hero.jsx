@@ -5,6 +5,7 @@ import { baseImg } from "../common/base";
 import { CompanyName } from "../common/base";
 
 import HeroIllustration from "../../assets/img/home/hero-illustration.svg"
+import Hero1 from "../../assets/img/home/hero1.jpg"
 
 const Hero = () => {
   const router = useNavigate();
@@ -48,15 +49,10 @@ const Hero = () => {
               Digital Solutions.
             </MovingText>
           </h1>
-          <p className="text-black font-normal text-[16px] lg:text-[18px]  leading-[30px] text-opacity-90 my-4 max-w-[470px] lg:max-w-[590px]">
-            At {CompanyName}, we specialise in creating cutting-edge websites and
-            intuitive applications that give businesses the tools they need to
-            succeed online. We offer specialised solutions that are suited to
-            your particular demands with the help of our talented team of
-            developers and designers. We can help you reach more people or
-            streamline your operations whether you want to have a strong online
-            presence.
+          <p className="text-black font-normal text-[16px] lg:text-[18px] leading-[30px] text-opacity-90 my-4 max-w-[470px] lg:max-w-[590px]">
+            At {CompanyName}, we specialize in crafting innovative websites and user-friendly applications designed to empower businesses to thrive in the digital world. Our team of skilled developers and designers work closely with you to deliver customized solutions tailored to your unique needs. Whether you're aiming to expand your online presence or enhance operational efficiency, we're here to help you succeed.
           </p>
+
 
           <button
             onClick={() => router("/about-us")}

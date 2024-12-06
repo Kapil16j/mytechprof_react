@@ -11,11 +11,22 @@ import {
 import { BrowserRouter as Router, Routes, Route, Link,useNavigate } from "react-router-dom";
 import Navlogo from "../../assets/img/logo/navlogo.png"
 import footerImg from "../../assets/img/home/footer-img.png"
-import { homeRoute } from "./base";
+import { CompanyPhone, homeRoute } from "./base";
 import { CompanyName } from "./base";
 
 const Footer = () => {
   const date = new Date().getFullYear();
+
+
+const servicesArray =[
+  { title: "Integrated Online Management System", url: "/services/ioms" },
+  { title: "Email Hosting", url: "/services/email_hosting" },
+  { title: "Linux Mail Server", url: "/services/linux_mail_server" },
+  { title: "Web Application", url: "/services/web_application" },
+  { title: "Website Hosting", url: "/services/website_hoisting" },
+  { title: "Web Designing and Development", url: "/services/web_designing_and_development" },
+
+]
 
   return  (
     <div className="relative">
@@ -82,7 +93,7 @@ const Footer = () => {
                 <Link
                   className=" text-white/80 hover:text-white/40"
                   aria-label="Telegram"
-                  to="https://t.me/+919999999999"
+                  to={`https://t.me/+91${CompanyPhone}`}
                   target="_blank"
                 >
                   <span className="w-[37px] h-[37px] bg-transparent hover:bg-white border rounded-[50%] border-white flex items-center justify-center group hover:border-black">
@@ -96,53 +107,23 @@ const Footer = () => {
                 Services
               </p>
               <ul>
-                <li className=" mt-1.5 text-center sm:text-start  text-[18px] font-normal leading-[30px]">
-                  <Link
-                    className=" text-white/80 hover:text-white/40"
-                    aria-label="Mobile App Development"
-                    to="/course/mobile-app"
-                  >
-                    Mobile App Development
-                  </Link>
-                </li>
 
-                <li className="mt-1.5 text-center sm:text-start  text-[18px] font-normal leading-[30px]">
-                  <Link
-                    className=" text-white/80 hover:text-white/40"
-                    aria-label=" UI/UX Design"
-                    to="/course/ui-ux"
-                  >
-                    UI/UX Design
-                  </Link>
-                </li>
-                <li className="mt-1.5 text-center sm:text-start  text-[18px] font-normal leading-[30px]">
-                  <Link
-                    className=" text-white/80 hover:text-white/40"
-                    aria-label="Web Development"
-                    to="/course/frontend"
-                  >
-                    Web Development
-                  </Link>
-                </li>
-                <li className="mt-1.5 text-center sm:text-start  text-[18px] font-normal leading-[30px]">
-                  <Link
-                    className=" text-white/80 hover:text-white/40"
-                    aria-label="Back End Development"
-                    to="/course/backend"
-                  >
-                    Back End Development
-                  </Link>
-                </li>
+                {servicesArray?.map((item,index)=>{
+                  return(
+                    <li className=" mt-1.5 text-center sm:text-start  text-[18px] font-normal leading-[30px]">
+                    <Link
+                      className=" text-white/80 hover:text-white/40"
+                      aria-label="Mobile App Development"
+                      to={item.url}
+                    >
+                      {item.title}
+                    </Link>
+                  </li>
+                  )
+                })}
+               
 
-                <li className="mt-1.5 text-center sm:text-start  text-[18px] font-normal leading-[30px]">
-                  <Link
-                    className=" text-white/80 hover:text-white/40"
-                    aria-label="Maintainence"
-                    to="/web-maintainence"
-                  >
-                    Maintainence
-                  </Link>
-                </li>
+                
               </ul>
             </div>
             <div className="w-[250px]  sm:mr-5 ">

@@ -21,19 +21,10 @@ const AboutUs = () => {
             <h1 className="text-[44px] font-bold leaading-[48px] text-black">
               About <span className=" about_us_color ">Us</span>
             </h1>
-            <p className="text-[16px] font-normal mt-5 leading-[25px] text-black">
-           {CompanyName}, is a leading IT company that specializes in providing
-              cutting-edge solutions to businesses of all sizes. With a team of
-              highly skilled professionals, we offer a wide range of services
-              including software development, web design, mobile app
-              development, and cloud solutions. Our expertise lies in creating
-              tailored solutions that meet the unique requirements of our
-              clients. We pride ourselves on delivering high-quality projects on
-              time and within budget. Our customer-centric approach, attention
-              to detail, and commitment to excellence set us apart. Partner with
-              {CompanyName}, to leverage technology and elevate your business to new
-              heights. Let&apos;s embark on a transformative journey together.
-            </p>
+            <p className="text-[16px] mt-7 font-normal leading-6 text-center lg:text-start text-black max-w-[512px]">
+  {CompanyName} is a leading IT firm dedicated to delivering innovative solutions for businesses of all sizes. With a team of skilled professionals, we specialize in software development, web design, mobile app development, and cloud services. Our focus is on crafting personalized solutions that address the unique needs of each client. Committed to quality, we ensure projects are delivered on time and within budget. Partner with {CompanyName} to harness technology and take your business to the next level. Let’s create something exceptional together.
+</p>
+
           </div>
         </div>
       </div>
